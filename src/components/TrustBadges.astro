@@ -1,0 +1,51 @@
+---
+const badges = [
+  { src: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/Untitled-design-21.webp", alt: "R+V Versicherung" },
+  { src: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/Untitled-design-22.webp", alt: "RheinLand Versicherung" },
+  { src: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/Untitled-design-23.webp", alt: "Allianz Versicherung" },
+  { src: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/Untitled-design-24.webp", alt: "ERGO Versicherung" },
+  { src: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/Untitled-design-25.webp", alt: "LVM Versicherung" },
+  { src: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/Untitled-design-26.png", alt: "AXA Versicherung" },
+  { src: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/Untitled-design-27.webp", alt: "Barmenia Gothaer Versicherung" },
+  { src: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/Untitled-design-28.webp", alt: "Die Continentale Versicherung" },
+];
+const loopBadges = [...badges, ...badges];
+---
+<div class="badges-marquee" role="img" aria-label="Versicherungspartner: R+V, RheinLand, Allianz, ERGO, LVM, AXA, Barmenia Gothaer, Die Continentale">
+  <div class="badges-track">
+    {loopBadges.map((b) => <img src={b.src} alt="" loading="lazy" />)}
+  </div>
+</div>
+
+<style>
+  .badges-marquee {
+    overflow: hidden;
+    margin: 2rem 0;
+    -webkit-mask-image: linear-gradient(90deg, transparent, black 8%, black 92%, transparent);
+    mask-image: linear-gradient(90deg, transparent, black 8%, black 92%, transparent);
+  }
+  .badges-track {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    width: max-content;
+    animation: badges-scroll 22s linear infinite;
+  }
+  .badges-track img {
+    height: 34px;
+    width: auto;
+    object-fit: contain;
+    opacity: .55;
+    filter: grayscale(1);
+    flex-shrink: 0;
+    transition: opacity .2s ease, filter .2s ease;
+  }
+  .badges-track img:hover { opacity: .9; filter: grayscale(0); }
+  @keyframes badges-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .badges-track { animation: none; overflow-x: auto; }
+  }
+</style>
