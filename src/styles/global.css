@@ -1,0 +1,116 @@
+/* Design-Tokens: bewusst gewählt für ein Handwerksunternehmen im
+   Bereich Wasserschaden/Trocknung — kühles, vertrauenswürdiges Petrol
+   als Basis, warmes Ocker als Kontrast (trocken vs. nass), Ziegelrot
+   ausschließlich für dringliche Handlungsaufforderungen. */
+:root {
+  --color-bg: #F3F5F5;
+  --color-surface: #FFFFFF;
+  --color-ink: #1A2225;
+  --color-ink-soft: #4B5A5E;
+  --color-primary: #17414F;
+  --color-primary-dark: #0F2E38;
+  --color-accent: #C97B2C;
+  --color-urgent: #A8402F;
+  --color-border: #DCE3E3;
+
+  --font-display: 'Spectral', Georgia, serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+
+  --measure: 68ch;
+  --radius: 4px;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  color: var(--color-primary-dark);
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+h1 { font-size: clamp(2rem, 4vw, 3.2rem); }
+h2 { font-size: clamp(1.5rem, 2.5vw, 2.1rem); margin-top: 2.5rem; }
+h3 { font-size: 1.25rem; }
+
+p { max-width: var(--measure); }
+
+a { color: var(--color-primary); }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.prose {
+  max-width: var(--measure);
+}
+.prose ul { padding-left: 1.2rem; }
+.prose li { margin-bottom: .4rem; }
+
+.btn {
+  display: inline-block;
+  padding: .85rem 1.6rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.btn:hover { transform: translateY(-1px); }
+
+.btn-call {
+  background: var(--color-urgent);
+  color: white;
+  box-shadow: 0 2px 0 rgba(0,0,0,.15);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--color-primary-dark);
+  border: 1.5px solid var(--color-primary-dark);
+}
+
+.section { padding: 3.5rem 0; }
+.section-alt { background: var(--color-surface); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); }
+
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}

@@ -1,0 +1,26 @@
+---
+name: "Hückelhoven"
+metaTitle: "Bautrocknung & Leckortung Hückelhoven | Dein Trocknungsteam"
+metaDescription: "Schnelle Hilfe bei Wasserschäden, Rohrbruch & feuchten Wänden in Hückelhoven. Rund um die Uhr erreichbar."
+heroText: "Ein Wasserschaden kommt meist plötzlich. Wir sind Ihr erfahrener Ansprechpartner für Leckortung und Bautrocknung in Hückelhoven und Umgebung."
+districts:
+  - name: "Hückelhoven-Zentrum"
+    areas: "Hückelhoven & Stadtmitte"
+  - name: "Hückelhoven-Nord"
+    areas: "Ratheim, Altmyhl, Golkrath & Houverath"
+  - name: "Hückelhoven-West"
+    areas: "Hetzerath, Doveren & Baal"
+  - name: "Hückelhoven-Süd"
+    areas: "Brachelen, Hilfarth & Himmerich"
+  - name: "Hückelhoven-Ost"
+    areas: "Millich & Dremmen"
+faq:
+  - q: "Übernimmt die Versicherung die Kosten für die Bautrocknung?"
+    a: "In vielen Fällen übernimmt die Gebäude- oder Hausratversicherung die Kosten für Leckortung, Bautrocknung und Wasserschadensanierung, sofern der Schaden nachvollziehbar dokumentiert ist."
+  - q: "Wie lange dauert eine professionelle Bautrocknung?"
+    a: "Die Dauer hängt vom Schaden und der betroffenen Bausubstanz ab und kann zwischen wenigen Tagen und mehreren Wochen variieren."
+  - q: "Wie schnell sind Sie bei einem Notfall in Hückelhoven vor Ort?"
+    a: "Da unser Standort direkt an Hückelhoven grenzt, erreichen wir viele Einsatzorte innerhalb von 30 bis 60 Minuten."
+  - q: "Sind die Trocknungsgeräte sehr laut und verbrauchen sie viel Strom?"
+    a: "Moderne Trocknungsgeräte sind leistungsstark und schalloptimiert. Den Stromverbrauch dokumentieren wir exakt für Ihre Versicherung."
+---

@@ -1,0 +1,56 @@
+---
+---
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/" class="logo">Dein Trocknungsteam</a>
+    <nav class="main-nav">
+      <a href="/bautrocknung/">Bautrocknung</a>
+      <a href="/leckortung/">Leckortung</a>
+      <a href="/wiederherstellung/">Wiederherstellung</a>
+      <a href="/blog/">Blog</a>
+    </nav>
+    <a href="tel:+4915785119191" class="btn btn-call header-cta">Jetzt anrufen</a>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap: 1.5rem;
+  }
+  .logo {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--color-primary-dark);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .main-nav {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .main-nav a {
+    color: var(--color-ink-soft);
+    text-decoration: none;
+    font-size: .95rem;
+  }
+  .main-nav a:hover { color: var(--color-primary); }
+  .header-cta { white-space: nowrap; font-size: .9rem; padding: .6rem 1.1rem; }
+
+  @media (max-width: 720px) {
+    .main-nav { display: none; }
+  }
+</style>
