@@ -1,0 +1,26 @@
+---
+name: "Krefeld"
+metaTitle: "Bautrocknung & Leckortung Krefeld | Dein Trocknungsteam"
+metaDescription: "Professionelle Leckortung und Bautrocknung in Krefeld. Zerstörungsfreie Ortung, schnelle Trocknung, Versicherungsabwicklung inklusive."
+heroText: "Schnelle Hilfe bei Wasserschäden, feuchten Wänden und Leckagen. Wir sind Ihr zuverlässiger Partner für Krefeld und Umgebung – rund um die Uhr erreichbar."
+districts:
+  - name: "Krefeld-Zentrum"
+    areas: "Innenstadt, Dießem & Lehmheide"
+  - name: "Krefeld-Nord"
+    areas: "Uerdingen, Hohenbudberg & Gellep-Stratum"
+  - name: "Krefeld-West"
+    areas: "Fischeln, Oppum & Linn"
+  - name: "Krefeld-Süd"
+    areas: "Bockum, Cracau & Verberg"
+  - name: "Krefeld-Ost"
+    areas: "Traar, Hüls & Stadtwald"
+faq:
+  - q: "Übernimmt die Versicherung die Kosten für die Bautrocknung?"
+    a: "In den meisten Fällen ja. Wenn der Schaden durch Leitungswasser, Sturm oder Elementarereignisse entstanden ist, kommt die Wohngebäude- oder Hausratversicherung dafür auf."
+  - q: "Wie lange dauert eine professionelle Bautrocknung?"
+    a: "Je nach Schwere des Schadens dauert der Prozess in der Regel zwischen 14 und 21 Tagen. Wir führen regelmäßige Kontrollmessungen durch."
+  - q: "Wie schnell sind Sie bei einem Notfall in Krefeld vor Ort?"
+    a: "Wir sind regelmäßig in Krefeld und der Umgebung im Einsatz und bei akuten Notfällen meist innerhalb kurzer Zeit bei Ihnen."
+  - q: "Sind die Trocknungsgeräte sehr laut und verbrauchen sie viel Strom?"
+    a: "Unsere modernen Geräte sind schalloptimiert. Den Stromverbrauch protokollieren wir exakt, damit Sie ihn bei Ihrer Versicherung zur Erstattung einreichen können."
+---

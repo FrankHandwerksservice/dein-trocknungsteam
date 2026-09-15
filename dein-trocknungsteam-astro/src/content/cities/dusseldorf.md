@@ -1,0 +1,26 @@
+---
+name: "Düsseldorf"
+metaTitle: "Leckortung & Bautrocknung Düsseldorf | Dein Trocknungsteam"
+metaDescription: "Professionelle Leckortung Düsseldorf & Bautrocknung. Wir finden Leckagen zerstörungsfrei und trocknen schnell. 24h Nothilfe & Versicherungsabwicklung!"
+heroText: "Schnelle Hilfe bei Wasserschäden, feuchten Wänden und Leckagen. Wir sind Ihr zuverlässiger Partner für Düsseldorf und Umgebung – rund um die Uhr erreichbar."
+districts:
+  - name: "Düsseldorf-Zentrum"
+    areas: "Altstadt, Pempelfort, Carlstadt & Stadtmitte"
+  - name: "Düsseldorf-Nord"
+    areas: "Kaiserswerth, Lohausen, Stockum & Angermund"
+  - name: "Düsseldorf-West"
+    areas: "Oberkassel, Heerdt, Lörick & Niederkassel"
+  - name: "Düsseldorf-Süd"
+    areas: "Benrath, Reisholz, Holthausen & Wersten"
+  - name: "Düsseldorf-Ost"
+    areas: "Gerresheim, Grafenberg, Hubbelrath & Ludenberg"
+faq:
+  - q: "Übernimmt die Versicherung die Kosten für die Bautrocknung?"
+    a: "In den meisten Fällen ja. Wenn der Schaden durch Leitungswasser, Sturm oder Elementarereignisse entstanden ist, kommt die Wohngebäude- oder Hausratversicherung dafür auf."
+  - q: "Wie lange dauert eine professionelle Bautrocknung?"
+    a: "Je nach Schwere des Schadens dauert der Prozess in der Regel zwischen 14 und 21 Tagen. Wir führen regelmäßige Kontrollmessungen durch."
+  - q: "Wie schnell sind Sie bei einem Notfall in Düsseldorf vor Ort?"
+    a: "Da unser Standort unmittelbar an Düsseldorf grenzt, sind wir bei akuten Notfällen meist innerhalb von 30 bis 60 Minuten bei Ihnen."
+  - q: "Sind die Trocknungsgeräte sehr laut und verbrauchen sie viel Strom?"
+    a: "Unsere modernen Geräte sind schalloptimiert. Den Stromverbrauch protokollieren wir exakt, damit Sie ihn bei Ihrer Versicherung zur Erstattung einreichen können."
+---
