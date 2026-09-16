@@ -1,0 +1,16 @@
+---
+import { getEntry } from 'astro:content';
+import CityLayout from '../layouts/CityLayout.astro';
+
+const entry = await getEntry('cities', 'dusseldorf');
+---
+<CityLayout
+  name={entry.data.name}
+  metaTitle={entry.data.metaTitle}
+  metaDescription={entry.data.metaDescription}
+  heroText={entry.data.heroText}
+  introParagraphs={entry.data.introParagraphs}
+  districtIntro={entry.data.districtIntro}
+  districts={entry.data.districts}
+  faq={entry.data.faq}
+/>
