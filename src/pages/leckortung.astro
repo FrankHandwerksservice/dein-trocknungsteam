@@ -1,0 +1,10 @@
+---
+import { getEntry } from 'astro:content';
+import ServiceLayout from '../layouts/ServiceLayout.astro';
+
+const entry = await getEntry('services', 'leckortung');
+const { Content: Body } = await entry.render();
+---
+<ServiceLayout title={entry.data.title} heroSubtitle={entry.data.heroSubtitle} metaDescription={entry.data.metaDescription} heroImage={entry.data.heroImage}>
+  <Body />
+</ServiceLayout>
