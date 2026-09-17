@@ -26,12 +26,17 @@ const cities = defineCollection({
     metaDescription: z.string(),
     heroText: z.string(),
     introParagraphs: z.array(z.string()).optional(),
+    introImage: z.string().optional(),
     districtIntro: z.string().optional(),
+    districtImage: z.string().optional(),
     districts: z.array(
-      z.object({
-        name: z.string(),
-        areas: z.string(),
-      })
+      z.union([
+        z.string(),
+        z.object({
+          name: z.string(),
+          areas: z.string(),
+        }),
+      ])
     ),
     faq: z.array(
       z.object({
@@ -39,24 +44,8 @@ const cities = defineCollection({
         a: z.string(),
       })
     ),
-    distanceKm: z.number().optional(),
-    distanceMinutes: z.number().optional(),
     geoLat: z.number().optional(),
     geoLng: z.number().optional(),
-    processSteps: z.array(
-      z.object({
-        title: z.string(),
-        text: z.string(),
-      })
-    ).optional(),
-    neighborCities: z.array(
-      z.object({
-        name: z.string(),
-        slug: z.string(),
-      })
-    ).optional(),
-    caseExampleTitle: z.string().optional(),
-    caseExampleText: z.array(z.string()).optional(),
   }),
 });
 
