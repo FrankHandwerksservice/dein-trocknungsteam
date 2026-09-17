@@ -39,6 +39,24 @@ const cities = defineCollection({
         a: z.string(),
       })
     ),
+    distanceKm: z.number().optional(),
+    distanceMinutes: z.number().optional(),
+    geoLat: z.number().optional(),
+    geoLng: z.number().optional(),
+    processSteps: z.array(
+      z.object({
+        title: z.string(),
+        text: z.string(),
+      })
+    ).optional(),
+    neighborCities: z.array(
+      z.object({
+        name: z.string(),
+        slug: z.string(),
+      })
+    ).optional(),
+    caseExampleTitle: z.string().optional(),
+    caseExampleText: z.array(z.string()).optional(),
   }),
 });
 
