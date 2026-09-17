@@ -6,8 +6,12 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description: string;
+  geoLat?: number;
+  geoLng?: number;
+  geoPlacename?: string;
+  jsonLd?: string;
 }
-const { title, description } = Astro.props;
+const { title, description, geoLat, geoLng, geoPlacename, jsonLd } = Astro.props;
 ---
 <!doctype html>
 <html lang="de">
@@ -20,7 +24,16 @@ const { title, description } = Astro.props;
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:locale" content="de_DE" />
+    {geoLat !== undefined && geoLng !== undefined && (
+      <>
+        <meta name="geo.region" content="DE-NW" />
+        {geoPlacename && <meta name="geo.placename" content={geoPlacename} />}
+        <meta name="geo.position" content={`${geoLat};${geoLng}`} />
+        <meta name="ICBM" content={`${geoLat}, ${geoLng}`} />
+      </>
+    )}
     <link rel="stylesheet" href="https://use.typekit.net/yez0rtj.css" />
+    {jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
   </head>
   <body>
     <Header />
