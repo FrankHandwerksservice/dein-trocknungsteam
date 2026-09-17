@@ -2,9 +2,9 @@
 title: "Sanierung nach Wasserschäden für Gebäude jeder Art"
 heroSubtitle: "Ob Malerarbeiten, Trockenbau oder Bodenarbeiten. Wir machen das!"
 metaDescription: "Professionelle Sanierung nach Wasserschaden: Malerarbeiten, Trockenbau & Bodenbeläge in Neuss & Düsseldorf."
-heroImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_3_xlg-2-1024x571.webp"
+heroImage: "/images/sanierung/malerarbeiten.webp"
 techniquesHeading: "Die Leistungen unserer Sanierung im Überblick"
-techniquesImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_3_xlg-2-1024x571.webp"
+techniquesImage: "/images/sanierung/bodenverlegung.webp"
 techniques: [{label: "Trockenbauarbeiten", text: "Austausch von Gipskartonplatten, Aufbau neuer Vorsatzschalen und Deckensanierung."}, {label: "Malerarbeiten", text: "Tapezierarbeiten, Anstriche, Schleif- und Spachtelarbeiten sowie schimmelhemmende Beschichtungen."}, {label: "Bodenarbeiten", text: "Entfernung beschädigter Böden, Verlegung neuer Bodenbeläge und Montage von Sockelleisten."}, {label: "Schadensaufnahme und Versicherungsabstimmung", text: "Wir dokumentieren den Schaden und stimmen den gesamten Ablauf direkt mit Ihrer Versicherung ab."}]
 ---
 
