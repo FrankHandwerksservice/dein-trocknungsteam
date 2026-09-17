@@ -38,6 +38,8 @@ const cities = defineCollection({
         }),
       ])
     ),
+    fleetHeading: z.string().optional(),
+    fleetText: z.array(z.string()).optional(),
     faq: z.array(
       z.object({
         q: z.string(),
