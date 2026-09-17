@@ -2,9 +2,9 @@
 title: "Technische Bautrocknung für Gebäude jeder Art"
 heroSubtitle: "Kontrollierte technische Trocknung nach Wasserschäden oder während der Bauphase."
 metaDescription: "Professionelle Bautrocknung nach Wasserschäden. Effiziente Trocknung mit moderner Technik zur Vermeidung von Folgeschäden."
-heroImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_3_xlg-1-1024x683.webp"
+heroImage: "/images/bautrocknung/trocknungsgeraet-wand.jpg"
 techniquesHeading: "Die eingesetzten Verfahren der technischen Bautrocknung"
-techniquesImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_3_xlg-1-1024x683.webp"
+techniquesImage: "/images/bautrocknung/trocknungsgeraet-detail.webp"
 techniques: [{label: "Estrichtrocknung", text: "Frisch verlegter oder durchfeuchteter Estrich wird kontrolliert getrocknet, damit der Bodenbelag rechtzeitig verlegt werden kann."}, {label: "Dämmschichttrocknung", text: "Die Dämmschicht unter dem Estrich wird mit Überdruck durchströmt, um eingeschlossene Feuchtigkeit gezielt zu entfernen."}, {label: "Hohlraumtrocknung", text: "Trockenbauwände, abgehängte Decken und Leitungsschächte werden von innen getrocknet, ohne dass Bauteile geöffnet werden müssen."}, {label: "Kondensations- und Adsorptionstrockner", text: "Je nach Raumtemperatur und Feuchtigkeitsgrad kommt die passende Trocknertechnik zum Einsatz."}, {label: "Infrarot-Flächentrocknung", text: "Heizplatten geben Wärme direkt an die feuchte Wandfläche ab und beschleunigen so die Austrocknung."}]
 ---
 
