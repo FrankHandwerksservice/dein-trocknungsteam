@@ -1,7 +1,6 @@
 ---
 import { getEntry } from 'astro:content';
 import CityLayout from '../layouts/CityLayout.astro';
-
 const entry = await getEntry('cities', 'dusseldorf');
 ---
 <CityLayout
@@ -14,6 +13,8 @@ const entry = await getEntry('cities', 'dusseldorf');
   districtIntro={entry.data.districtIntro}
   districtImage={entry.data.districtImage}
   districts={entry.data.districts}
+  fleetHeading={entry.data.fleetHeading}
+  fleetText={entry.data.fleetText}
   faq={entry.data.faq}
   geoLat={entry.data.geoLat}
   geoLng={entry.data.geoLng}
