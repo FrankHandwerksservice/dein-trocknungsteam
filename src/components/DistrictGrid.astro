@@ -1,19 +1,44 @@
 ---
-// Geografische Zonen, keine Abfolge — daher bewusst OHNE Nummerierung,
-// als Karten-Raster statt "Schritt 1 / 2 / 3".
+// Karten-Raster für gruppierte Stadtteile (z.B. nach Himmelsrichtung),
+// oder eine einfache Chip-Liste für Städte ohne sinnvolle Gruppierung.
 const { districts } = Astro.props;
+const isFlat = districts.every((d: unknown) => typeof d === 'string');
 ---
-<div class="grid-2">
-  {districts.map((d: { name: string; areas: string }) => (
-    <div class="card district-card">
-      <h3>{d.name}</h3>
-      <p>{d.areas}</p>
-    </div>
-  ))}
-</div>
+{isFlat ? (
+  <div class="chip-list">
+    {districts.map((d: string) => (
+      <span class="chip">{d}</span>
+    ))}
+  </div>
+) : (
+  <div class="grid-2">
+    {districts.map((d: { name: string; areas: string }) => (
+      <div class="card district-card">
+        <h3>{d.name}</h3>
+        <p>{d.areas}</p>
+      </div>
+    ))}
+  </div>
+)}
 
 <style>
   .district-card { border-left: 3px solid var(--color-primary); }
   .district-card h3 { margin: 0 0 .3rem; font-size: 1.05rem; }
   .district-card p { margin: 0; color: var(--color-ink-soft); font-size: .92rem; }
+  .chip-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .6rem;
+    margin-top: 1.5rem;
+  }
+  .chip {
+    display: inline-block;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    padding: .5rem 1.1rem;
+    font-size: .9rem;
+    font-weight: 600;
+    color: var(--color-ink);
+  }
 </style>
