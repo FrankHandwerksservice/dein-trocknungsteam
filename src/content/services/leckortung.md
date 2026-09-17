@@ -1,10 +1,10 @@
 ---
 title: "Leckortung für Gebäude jeder Art"
-heroSubtitle: "Kontrollierte Leckortung nach Wasserschäden. Ohne Zerstörung."
+heroSubtitle: "Kontrollierte Leckortung nach Wasserschäden. Ohne Zerstörung."
 metaDescription: "Professionelle Leckortung ohne unnötige Zerstörung. Wir finden jedes Leck punktgenau mit moderner Technik."
-heroImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_3_xlg-1024x683.webp"
+heroImage: "/images/leckortung/thermografie.webp"
 techniquesHeading: "Die modernen und zerstörungsfreien Techniken der Leckortung"
-techniquesImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_3_xlg-1024x683.webp"
+techniquesImage: "/images/leckortung/endoskopie.jpg"
 techniques: [{label: "Thermografie", text: "Mit einer Wärmebildkamera lassen sich Temperaturunterschiede sichtbar machen."}, {label: "Akustische Leckortung", text: "Fließ- oder Austrittsgeräusche in Leitungen werden erfasst."}, {label: "Feuchtigkeitsmessung", text: "Spezielle Messgeräte bestimmen die Feuchtigkeit in Baustoffen."}, {label: "Tracergas-Verfahren", text: "Ein spezielles Gas wird in das Leitungssystem eingebracht und an der Austrittsstelle gemessen."}, {label: "Endoskopie", text: "Kamera-Sonden untersuchen Leitungen oder Hohlräume, ohne große Bauteile zu öffnen."}]
 ---
 
