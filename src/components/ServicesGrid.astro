@@ -1,8 +1,8 @@
 ---
 const services = [
-  { href: "/leckortung/", title: "Leckortung", text: "Präzise Ortung selbst kleinster Leckagen – zerstörungsarm, schnell und zuverlässig.", icon: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/image-6.webp" },
-  { href: "/bautrocknung/", title: "Bautrocknung", text: "Effiziente technische Trocknung zur schnellen und nachhaltigen Beseitigung von Feuchtigkeit.", icon: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/image-4.webp" },
-  { href: "/wiederherstellung/", title: "Sanierung", text: "Fachgerechte Sanierung beschädigter Bereiche – sauber, vollständig und aus einer Hand.", icon: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/image-5.webp" },
+  { href: "/leckortung/", title: "Leckortung", text: "Präzise Ortung selbst kleinster Leckagen – zerstörungsarm, schnell und zuverlässig.", icon: "/images/leistungen/leckortung-icon.webp" },
+  { href: "/bautrocknung/", title: "Bautrocknung", text: "Effiziente technische Trocknung zur schnellen und nachhaltigen Beseitigung von Feuchtigkeit.", icon: "/images/leistungen/bautrocknung-icon.webp" },
+  { href: "/wiederherstellung/", title: "Sanierung", text: "Fachgerechte Sanierung beschädigter Bereiche – sauber, vollständig und aus einer Hand.", icon: "/images/leistungen/sanierung-icon.webp" },
 ];
 ---
 <div class="grid-3">
@@ -16,14 +16,14 @@ const services = [
 </div>
 
 <style>
-  .service-card {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-    border-top: 3px solid var(--color-accent);
-  }
-  .service-card:hover { border-top-color: var(--color-primary); }
-  .service-icon { width: 48px; height: 48px; object-fit: contain; margin-bottom: .75rem; }
-  .service-card h3 { margin-top: 0; }
-  .service-card p { color: var(--color-ink-soft); margin-bottom: 0; font-size: .95rem; }
+.service-card {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  border-top: 3px solid var(--color-accent);
+}
+.service-card:hover { border-top-color: var(--color-primary); }
+.service-icon { width: 48px; height: 48px; object-fit: contain; margin-bottom: .75rem; }
+.service-card h3 { margin-top: 0; }
+.service-card p { color: var(--color-ink-soft); margin-bottom: 0; font-size: .95rem; }
 </style>
