@@ -3,26 +3,14 @@ name: "Dormagen"
 metaTitle: "Bautrocknung & Leckortung Dormagen | Dein Trocknungsteam"
 metaDescription: "Schnelle Hilfe bei Wasserproblemen, feuchten Wänden und Leckagen. Ihr zuverlässiger Partner für Dormagen und Umgebung – rund um die Uhr erreichbar."
 heroText: "Schnelle Hilfe bei Wasserproblemen, feuchten Wänden und Leckagen. Wir sind Ihr zuverlässiger Partner für Dormagen und Umgebung – rund um die Uhr erreichbar."
-districts:
-  - name: "Dormagen-Zentrum"
-    areas: "Horrem & Stadtmitte"
-  - name: "Dormagen-Nord"
-    areas: "Stürzelberg, St. Peter & Zons"
-  - name: "Dormagen-West"
-    areas: "Gohr, Broich & Straberg"
-  - name: "Dormagen-Süd"
-    areas: "Delhoven, Knechtsteden & Hackenbroich"
-  - name: "Dormagen-Ost"
-    areas: "Rheinfeld & Horrem"
+introParagraphs: ["Ein Wasserschaden in den eigenen vier Wänden oder im Gewerbeobjekt ist ein Notfall, der sofortiges Handeln erfordert. Wir sind Ihr spezialisierter Fachbetrieb für das gesamte Stadtgebiet von Dormagen.", "Ob akuter Rohrbruch, versteckte Leckage oder Feuchtigkeit nach Starkregen: Wir setzen moderne, zerstörungsfreie Messtechnik ein, um die Schadensquelle punktgenau zu lokalisieren. Unsere Trocknungsgeräte sorgen anschließend dafür, dass Wände, Böden und Dämmungen schnellstmöglich vollständig trocknen, damit keine Folgeschäden wie Schimmelbildung entstehen.", "Wir arbeiten mit allen gängigen Gebäudeversicherungen zusammen und übernehmen die lückenlose Dokumentation, damit die Kostenübernahme reibungslos verläuft."]
+introImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_20_sm2x.webp"
+districtIntro: "Egal in welchem Stadtteil der Schaden auftritt – wir sind schnell bei Ihnen vor Ort. Regelmäßig im Einsatz sind wir unter anderem in:"
+districtImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_21_sm2x.webp"
+districts: ["Stadtmitte", "Horrem", "Stürzelberg", "St. Peter", "Zons", "Gohr", "Broich", "Straberg", "Delhoven", "Knechtsteden", "Hackenbroich", "Rheinfeld"]
 fleetHeading: "Voll ausgestattet im Einsatz für Dormagen"
 fleetText: ["Unser Team ist mit vollständig ausgestatteten Fahrzeugen unterwegs – Trocknungsgeräte, Leckortungstechnik und Sanierungswerkzeug haben wir immer griffbereit dabei. So können wir in Dormagen noch am selben Tag mit der Schadensbehebung beginnen.", "Von der ersten Begehung über die Leckortung bis zur abschließenden Trocknung: Wir bringen alles mit, was für eine schnelle und saubere Schadensbehebung nötig ist – ohne zusätzliche Anfahrten oder Wartezeiten für Sie."]
-faq:
-  - q: "Übernimmt die Versicherung die Kosten für die Bautrocknung?"
-    a: "In den meisten Fällen ja. Wenn der Schaden durch Leitungswasser, Sturm oder Elementarereignisse entstanden ist, kommt die Wohngebäude- oder Hausratversicherung dafür auf."
-  - q: "Wie lange dauert eine professionelle Bautrocknung?"
-    a: "Je nach Schwere des Schadens dauert der Prozess in der Regel zwischen 14 und 21 Tagen. Wir führen regelmäßige Kontrollmessungen durch."
-  - q: "Wie schnell sind Sie bei einem Notfall in Dormagen vor Ort?"
-    a: "Da unser Standort unmittelbar an Dormagen grenzt, sind wir bei akuten Notfällen meist innerhalb von 30 bis 60 Minuten bei Ihnen."
-  - q: "Sind die Trocknungsgeräte sehr laut und verbrauchen sie viel Strom?"
-    a: "Unsere modernen Geräte sind schalloptimiert. Den Stromverbrauch protokollieren wir exakt, damit Sie ihn bei Ihrer Versicherung zur Erstattung einreichen können."
+faq: [{q: "Übernimmt die Versicherung die Kosten für die Bautrocknung?", a: "In den meisten Fällen ja. Wenn der Schaden durch Leitungswasser, Sturm oder Elementarereignisse entstanden ist, kommt die Wohngebäude- oder Hausratversicherung dafür auf."}, {q: "Wie lange dauert eine professionelle Bautrocknung?", a: "Je nach Schwere des Schadens dauert der Prozess in der Regel zwischen 14 und 21 Tagen. Wir führen regelmäßige Kontrollmessungen durch."}, {q: "Wie schnell sind Sie bei einem Notfall in Dormagen vor Ort?", a: "Da unser Standort unmittelbar an Dormagen grenzt, sind wir bei akuten Notfällen meist innerhalb von 30 bis 60 Minuten bei Ihnen."}, {q: "Sind die Trocknungsgeräte sehr laut und verbrauchen sie viel Strom?", a: "Unsere modernen Geräte sind schalloptimiert. Den Stromverbrauch protokollieren wir exakt, damit Sie ihn bei Ihrer Versicherung zur Erstattung einreichen können."}]
+geoLat: 51.0964
+geoLng: 6.8419
 ---
