@@ -1,0 +1,16 @@
+---
+name: "Neuss"
+metaTitle: "Leckortung & Bautrocknung Neuss | Dein Trocknungsteam"
+metaDescription: "Leckortung und Bautrocknung in Neuss vom Fachbetrieb direkt vor Ort – zerstörungsfreie Ortung, schnelle Trocknung und 24h Nothilfe inklusive Versicherungsabwicklung."
+heroText: "Wasserschaden in Neuss? Wir sind direkt vor Ort und für Sie da – zerstörungsfreie Leckortung und professionelle Trocknung rund um die Uhr."
+introParagraphs: ["Neuss ist unser Zuhause – hier sind wir zu Hause und entsprechend schnell bei Ihnen vor Ort, egal ob in der historischen Innenstadt, einem der gewachsenen Stadtteile oder einem Gewerbegebiet am Hafen. Diese Ortsnähe kommt Ihnen bei jedem Einsatz zugute.", "Ob akuter Rohrbruch, eine schleichende Leckage oder Feuchtigkeit nach Starkregen: Mit moderner, zerstörungsarmer Messtechnik finden wir die Schadensursache punktgenau, statt Wände oder Böden auf Verdacht zu öffnen. Unsere Trocknungsgeräte sorgen anschließend dafür, dass Wände, Böden und Dämmschichten vollständig austrocknen, bevor Folgeschäden wie Schimmel entstehen können.", "Wir arbeiten mit allen gängigen Gebäudeversicherungen zusammen und übernehmen die lückenlose Dokumentation, damit die Kostenübernahme für Sie reibungslos verläuft."]
+introImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_20_sm2x.webp"
+districtIntro: "Da wir direkt in Neuss ansässig sind, sind wir in jedem Stadtteil in kürzester Zeit vor Ort, unter anderem in:"
+districtImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_21_sm2x.webp"
+districts: ["Innenstadt", "Furth", "Weckhoven", "Erfttal", "Reuschenberg", "Uedesheim", "Grimlinghausen", "Selikum", "Holzheim", "Grefrath", "Norf", "Rosellen", "Gnadental", "Vogelsang"]
+fleetHeading: "Als Neusser Betrieb sofort für Sie einsatzbereit"
+fleetText: ["Da unser Standort mitten in Neuss liegt, sind unsere Fahrzeuge mit Ortungstechnik, Trocknungsgeräten und Material für erste Sicherungsmaßnahmen in der Regel besonders schnell bei Ihnen – oft innerhalb weniger Minuten.", "Ob Innenstadt, Furth, Norf oder Rosellen – dank kurzer Wege und vollständig ausgestatteter Fahrzeuge können wir in Neuss meist noch am selben Tag mit der Schadensbehebung beginnen."]
+faq: [{q: "Übernimmt die Versicherung die Kosten für die Bautrocknung in Neuss?", a: "In den meisten Fällen ja. Wenn der Schaden durch Leitungswasser, Sturm oder ein anderes versichertes Ereignis entstanden ist, kommt die Wohngebäude- oder Hausratversicherung dafür auf. Wir unterstützen Sie mit einer vollständigen Dokumentation."}, {q: "Wie lange dauert eine professionelle Bautrocknung?", a: "Je nach Schwere des Schadens dauert der Prozess in der Regel zwischen zwei und drei Wochen. Wir führen regelmäßige Kontrollmessungen durch und dokumentieren den Fortschritt laufend."}, {q: "Wie schnell sind Sie bei einem Notfall in Neuss vor Ort?", a: "Da unser Standort direkt in Neuss liegt, sind wir bei akuten Notfällen meist besonders schnell bei Ihnen – häufig innerhalb von 30 Minuten."}, {q: "Sind die Trocknungsgeräte sehr laut und verbrauchen sie viel Strom?", a: "Unsere modernen Geräte sind schalloptimiert und energieeffizient im Betrieb. Den Stromverbrauch protokollieren wir exakt, damit Sie ihn bei Ihrer Versicherung zur Erstattung einreichen können."}]
+geoLat: 51.1985
+geoLng: 6.6889
+---

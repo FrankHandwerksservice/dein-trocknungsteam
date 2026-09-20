@@ -1,0 +1,16 @@
+---
+name: "Erkrath"
+metaTitle: "Leckortung & Bautrocknung Erkrath | Dein Trocknungsteam"
+metaDescription: "Leckortung und Bautrocknung in Erkrath vom Fachbetrieb – zerstörungsfreie Ortung, schnelle Trocknung und Unterstützung bei der Versicherung."
+heroText: "Wasserschaden in Erkrath? Wir orten die Ursache zerstörungsfrei und trocknen zuverlässig – schnelle Hilfe zwischen Alt-Erkrath und Hochdahl."
+introParagraphs: ["Erkrath liegt zwischen dem historischen Ortskern von Alt-Erkrath und der modernen Neuen-Stadt Hochdahl – zwei sehr unterschiedliche Baustrukturen, die wir bei jedem Einsatz berücksichtigen. Ob Altbau, Reihenhaus oder Geschosswohnung: Wir sind Ihr Fachbetrieb für Leckortung und Bautrocknung in der gesamten Stadt.", "Ob Rohrbruch, eine undichte Leitung oder Feuchtigkeit nach Starkregen: Mit zerstörungsarmer Messtechnik lokalisieren wir die Schadensursache gezielt, statt Wände oder Böden vorschnell großflächig zu öffnen. Anschließend sorgen unsere Trocknungsgeräte für eine vollständige Austrocknung der betroffenen Bereiche.", "Die Abstimmung mit Ihrer Gebäude- oder Hausratversicherung übernehmen wir für Sie, inklusive lückenloser Dokumentation aller Messwerte und Arbeitsschritte."]
+introImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_20_sm2x.webp"
+districtIntro: "In allen Stadtteilen von Erkrath sind wir regelmäßig im Einsatz, unter anderem in:"
+districtImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_21_sm2x.webp"
+districts: ["Alt-Erkrath", "Hochdahl", "Unterfeldhaus"]
+fleetHeading: "Schnell zwischen Alt-Erkrath und Hochdahl vor Ort"
+fleetText: ["Unsere Fahrzeuge sind durchgehend mit Ortungstechnik, Trocknungsgeräten und Material für erste Sicherungsmaßnahmen ausgestattet. So können wir in Erkrath meist bereits beim Ersttermin mit den notwendigen Arbeiten beginnen.", "Ob in Alt-Erkrath, Hochdahl oder Unterfeldhaus – dank vollständiger Ausstattung sind wir in der gesamten Stadt schnell einsatzbereit und sparen uns zusätzliche Anfahrten, die nur unnötig Zeit kosten."]
+faq: [{q: "Übernimmt die Versicherung die Kosten für die Bautrocknung in Erkrath?", a: "In der Regel ja, sofern der Schaden durch Leitungswasser oder ein versichertes Ereignis entstanden ist. Wir dokumentieren den Schaden so, dass die Abrechnung mit Ihrer Versicherung reibungslos läuft."}, {q: "Wie lange dauert eine professionelle Bautrocknung?", a: "Je nach Schadensausmaß und betroffenem Bauteil dauert die Trocknung meist zwei bis drei Wochen. Regelmäßige Feuchtigkeitsmessungen zeigen uns den genauen Fortschritt."}, {q: "Wie schnell sind Sie bei einem Notfall in Erkrath vor Ort?", a: "Da wir regelmäßig in Erkrath und der näheren Umgebung unterwegs sind, sind wir bei akuten Notfällen meist innerhalb von 30 bis 60 Minuten bei Ihnen."}, {q: "Gibt es Unterschiede bei der Trocknung zwischen Altbauten in Alt-Erkrath und neueren Gebäuden in Hochdahl?", a: "Ja, ältere Bausubstanz wie in Alt-Erkrath erfordert oft eine behutsamere Vorgehensweise als neuere Gebäude in Hochdahl. Wir passen unsere Methoden individuell an die jeweilige Bauweise an."}]
+geoLat: 51.2247
+geoLng: 6.9111
+---
