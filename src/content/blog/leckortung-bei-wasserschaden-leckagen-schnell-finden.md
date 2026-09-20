@@ -2,6 +2,7 @@
 title: "Leckortung bei Wasserschaden: Leckagen schnell finden, Folgeschäden vermeiden"
 metaDescription: "Feuchte Stelle, muffiger Geruch, steigende Wasserrechnung? So funktioniert professionelle Leckortung – Methoden, Ablauf und realistische Kosten."
 pubDate: 2026-05-22
+heroImage: "/images/leckortung/messtechnik.webp"
 ---
 
 # Leckortung bei Wasserschaden: Leckagen schnell finden, Folgeschäden vermeiden
@@ -57,9 +58,9 @@ Zerstörungsfrei heißt: keine Öffnung. Zerstörungsarm heißt: nur wenige gezi
 
 ## Kosten einer Leckortung und wer sie übernimmt
 
-Die Kosten hängen von Aufwand, Gebäudetyp, Zugänglichkeit und eingesetzter Technik ab und liegen üblicherweise zwischen 250 und 900 Euro. Sofern im Leistungsumfang enthalten, kann die Gebäudeversicherung diese Kosten übernehmen. Prüfen Sie die Bedingungen, holen Sie Freigaben ein und dokumentieren Sie Rechnungen, Fotos und Berichte.
+Die Kosten hängen von Aufwand, Gebäudetyp, Zugänglichkeit und eingesetzter Technik ab und lassen sich deshalb nur nach einer Ersteinschätzung vor Ort seriös beziffern. Sofern im Leistungsumfang enthalten, kann die Gebäudeversicherung diese Kosten übernehmen. Prüfen Sie die Bedingungen, holen Sie Freigaben ein und dokumentieren Sie Rechnungen, Fotos und Berichte.
 
-Sehr günstige Angebote sparen oft an Qualifikation, aktueller Messtechnik oder Dokumentation – Risiken sind falsche Markierungen, unnötiges Aufstemmen, übersehene Leckagen und im Zweifel Ärger mit der Versicherung. Ein seriöser Einsatz für einige hundert Euro ist meist günstiger als eine spätere Komplettsanierung.
+Sehr günstige Angebote sparen oft an Qualifikation, aktueller Messtechnik oder Dokumentation – Risiken sind falsche Markierungen, unnötiges Aufstemmen, übersehene Leckagen und im Zweifel Ärger mit der Versicherung. Eine fachgerechte Leckortung ist meist günstiger als eine spätere Komplettsanierung, die durch übersehene Feuchtigkeit nötig wird.
 
 ## Vorteile professioneller Leckortung
 
@@ -75,4 +76,4 @@ Für Eigentümer bedeutet Leckortung schnelle Klarheit, Werterhalt und weniger F
 
 ## Fazit
 
-Versteckte Leckagen sind häufig, aber mit moderner Leckageortung meist schnell und punktgenau lokalisierbar. Die Kosten sind im Vergleich zu möglichen Folgeschäden gering. Wer bei Feuchtigkeit, Schimmel oder ungeklärtem Wasserverbrauch zügig Hilfe holt, schützt Immobilie, Gesundheit und Budget.
+Versteckte Leckagen sind häufig, aber mit moderner Leckageortung meist schnell und punktgenau lokalisierbar. Die Kosten liegen im Vergleich zu möglichen Folgeschäden meist deutlich niedriger. Wer bei Feuchtigkeit, Schimmel oder ungeklärtem Wasserverbrauch zügig Hilfe holt, schützt Immobilie, Gesundheit und Budget.

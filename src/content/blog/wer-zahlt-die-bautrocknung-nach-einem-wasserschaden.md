@@ -2,6 +2,7 @@
 title: "Wer zahlt die Bautrocknung nach einem Wasserschaden?"
 metaDescription: "Gebäude- oder Hausratversicherung? Wir erklären, wer nach einem Wasserschaden für Leckortung, Bautrocknung und Sanierung aufkommt."
 pubDate: 2026-06-03
+heroImage: "/images/bautrocknung/trocknungsgeraet-wand.jpg"
 ---
 
 # Wer zahlt die Bautrocknung nach einem Wasserschaden?
@@ -95,6 +96,6 @@ Bei Schäden durch Starkregen oder Hochwasser ist meist eine zusätzliche Elemen
 
 ## Fazit
 
-Bei einem versicherten Leitungswasserschaden übernimmt in den meisten Fällen die Gebäudeversicherung die Kosten für die Bautrocknung, während die Hausratversicherung für beschädigte Einrichtungsgegenstände zuständig ist. Die Gesamtkosten einer professionellen Trocknung liegen häufig zwischen 1.500 und 3.000 Euro, abhängig vom Umfang des Schadens und der Trocknungsdauer.
+Bei einem versicherten Leitungswasserschaden übernimmt in den meisten Fällen die Gebäudeversicherung die Kosten für die Bautrocknung, während die Hausratversicherung für beschädigte Einrichtungsgegenstände zuständig ist. Die Gesamtkosten einer professionellen Trocknung hängen stark vom Umfang des Schadens und der Trocknungsdauer ab und lassen sich deshalb nur nach einer Vor-Ort-Einschätzung seriös beziffern.
 
 Entscheidend für eine erfolgreiche Regulierung sind eine schnelle Schadenmeldung, eine professionelle Dokumentation und die fachgerechte Durchführung der Trocknungsmaßnahmen. Dein Trocknungsteam übernimmt im Rhein-Kreis Neuss Leckortung, Trocknung, Schimmelsanierung, Wiederherstellung und die Kommunikation mit Ihrer Versicherung – kontaktieren Sie uns, wenn Sie einen Wasserschaden vermuten.

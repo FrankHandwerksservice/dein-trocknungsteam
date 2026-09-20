@@ -2,6 +2,7 @@
 title: "Wasserschaden unter dem Estrich: 7 Anzeichen, die oft übersehen werden"
 metaDescription: "Von oben wirkt der Boden trocken, darunter sammelt sich Wasser: So erkennen Sie einen Wasserschaden unter dem Estrich rechtzeitig."
 pubDate: 2026-05-23
+heroImage: "/images/bautrocknung/trocknungsgeraet-flur.webp"
 ---
 
 # Wasserschaden unter dem Estrich: 7 Anzeichen, die oft übersehen werden
