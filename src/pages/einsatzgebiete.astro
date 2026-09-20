@@ -5,7 +5,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const cityEntries = await getCollection('cities');
 const cities = cityEntries
   .map((entry) => ({
-    slug: entry.id,
+    slug: (entry.slug ?? entry.id).replace(/\.md$/, ''),
     name: entry.data.name,
     lat: entry.data.geoLat,
     lng: entry.data.geoLng,
