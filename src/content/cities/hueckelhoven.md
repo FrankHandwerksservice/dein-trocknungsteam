@@ -1,26 +1,16 @@
 ---
 name: "Hückelhoven"
 metaTitle: "Bautrocknung & Leckortung Hückelhoven | Dein Trocknungsteam"
-metaDescription: "Schnelle Hilfe bei Wasserschäden, Rohrbruch & feuchten Wänden in Hückelhoven. Rund um die Uhr erreichbar."
-heroText: "Ein Wasserschaden kommt meist plötzlich. Wir sind Ihr erfahrener Ansprechpartner für Leckortung und Bautrocknung in Hückelhoven und Umgebung."
-districts:
-  - name: "Hückelhoven-Zentrum"
-    areas: "Hückelhoven & Stadtmitte"
-  - name: "Hückelhoven-Nord"
-    areas: "Ratheim, Altmyhl, Golkrath & Houverath"
-  - name: "Hückelhoven-West"
-    areas: "Hetzerath, Doveren & Baal"
-  - name: "Hückelhoven-Süd"
-    areas: "Brachelen, Hilfarth & Himmerich"
-  - name: "Hückelhoven-Ost"
-    areas: "Millich & Dremmen"
-faq:
-  - q: "Übernimmt die Versicherung die Kosten für die Bautrocknung?"
-    a: "In vielen Fällen übernimmt die Gebäude- oder Hausratversicherung die Kosten für Leckortung, Bautrocknung und Wasserschadensanierung, sofern der Schaden nachvollziehbar dokumentiert ist."
-  - q: "Wie lange dauert eine professionelle Bautrocknung?"
-    a: "Die Dauer hängt vom Schaden und der betroffenen Bausubstanz ab und kann zwischen wenigen Tagen und mehreren Wochen variieren."
-  - q: "Wie schnell sind Sie bei einem Notfall in Hückelhoven vor Ort?"
-    a: "Da unser Standort direkt an Hückelhoven grenzt, erreichen wir viele Einsatzorte innerhalb von 30 bis 60 Minuten."
-  - q: "Sind die Trocknungsgeräte sehr laut und verbrauchen sie viel Strom?"
-    a: "Moderne Trocknungsgeräte sind leistungsstark und schalloptimiert. Den Stromverbrauch dokumentieren wir exakt für Ihre Versicherung."
+metaDescription: "Bautrocknung, Leckortung und Wasserschadensanierung in Hückelhoven vom Fachbetrieb – schnelle Hilfe rund um die Uhr, inklusive Unterstützung bei der Versicherung."
+heroText: "Wasserschaden, Feuchtigkeit oder Rohrbruch in Hückelhoven? Wir sind rund um die Uhr für Sie erreichbar und schnell vor Ort."
+introParagraphs: ["Ob nach einem Rohrbruch, starkem Regen oder einer schleichenden Leckage: In Hückelhoven und der Region zwischen Rur und niederländischer Grenze sind wir Ihr Ansprechpartner, wenn schnelles Handeln gefragt ist.", "Mit feinfühliger Messtechnik finden wir die Ursache der Feuchtigkeit, ohne unnötig Wände oder Böden zu öffnen. Anschließend trocknen wir betroffene Bauteile konsequent aus, damit sich weder Schimmel noch Folgeschäden ausbreiten können.", "Die Kommunikation mit Ihrer Versicherung nehmen wir Ihnen ab: Wir dokumentieren jeden Schritt sauber, damit die Kostenerstattung möglichst reibungslos funktioniert."]
+introImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_20_sm2x.webp"
+districtIntro: "Von der Stadtmitte bis in die umliegenden Ortsteile sind wir in Hückelhoven regelmäßig im Einsatz, darunter:"
+districtImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_21_sm2x.webp"
+districts: ["Stadtmitte", "Ratheim", "Altmyhl", "Golkrath", "Houverath", "Hetzerath", "Doveren", "Baal", "Brachelen", "Hilfarth", "Himmerich", "Millich", "Dremmen"]
+fleetHeading: "Immer einsatzbereit für Hückelhoven und Umgebung"
+fleetText: ["Unsere Fahrzeuge sind durchgehend mit Trocknungsgeräten, Ortungstechnik und Material für erste Sanierungsschritte bestückt. So können wir in Hückelhoven häufig direkt beim Ersttermin mit den notwendigen Maßnahmen beginnen.", "Egal ob Begehung, Leckortung oder laufende Trocknungskontrolle – dank vollständiger Ausstattung sparen wir uns zusätzliche Anfahrten und damit wertvolle Zeit für Sie."]
+faq: [{q: "Übernimmt die Versicherung die Kosten für die Bautrocknung?", a: "Häufig übernimmt die Gebäude- oder Hausratversicherung die Kosten, wenn der Schaden klar dokumentiert und die Ursache nachvollziehbar ist. Wir unterstützen Sie bei der notwendigen Nachweisführung."}, {q: "Wie lange dauert eine professionelle Bautrocknung?", a: "Je nach Schadensbild und betroffener Bausubstanz dauert die Trocknung zwischen wenigen Tagen und mehreren Wochen. Regelmäßige Messungen zeigen uns den genauen Fortschritt."}, {q: "Wie schnell sind Sie bei einem Notfall in Hückelhoven vor Ort?", a: "Da unser Standort direkt an Hückelhoven angrenzt, sind wir bei den meisten Einsatzorten innerhalb von 30 bis 60 Minuten vor Ort."}, {q: "Sind die Trocknungsgeräte sehr laut und verbrauchen sie viel Strom?", a: "Unsere Geräte sind leistungsstark, aber schalloptimiert und energieeffizient im Betrieb. Den Stromverbrauch protokollieren wir für Sie exakt zur Abrechnung mit der Versicherung."}]
+geoLat: 51.0500
+geoLng: 6.2167
 ---
