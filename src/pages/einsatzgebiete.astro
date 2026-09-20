@@ -1,0 +1,162 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const cityEntries = await getCollection('cities');
+const cities = cityEntries
+  .map((entry) => ({
+    slug: entry.id,
+    name: entry.data.name,
+    lat: entry.data.geoLat,
+    lng: entry.data.geoLng,
+  }))
+  .sort((a, b) => a.name.localeCompare(b.name, 'de'));
+
+const mapCities = cities.filter((c) => c.lat !== undefined && c.lng !== undefined);
+const logoUrl = "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_1_md2x-1-e1777972942533.webp";
+---
+<BaseLayout
+  title="Einsatzgebiete | Dein Trocknungsteam"
+  description="Leckortung, Bautrocknung und Sanierung – das sind unsere Einsatzgebiete rund um Neuss und den Rhein-Kreis. Finden Sie Ihre Stadt auf der Karte."
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Regional vor Ort</p>
+      <h1>Unsere Einsatzgebiete</h1>
+      <p>
+        Von Neuss aus sind wir im gesamten Rhein-Kreis Neuss und der weiteren Umgebung für Sie im Einsatz –
+        bei Wasserschäden, Leckagen und allem, was danach an Trocknung und Sanierung folgt. Finden Sie Ihre
+        Stadt auf der Karte oder in der Übersicht darunter.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div id="einsatzgebiete-map"></div>
+      <p class="map-hint">Klicken Sie auf ein Logo, um direkt zur Seite der jeweiligen Stadt zu gelangen.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Alle Städte im Überblick</h2>
+      <div class="grid-3 city-grid">
+        {cities.map((city) => (
+          <a href={`/${city.slug}/`} class="card city-card">
+            <img src={logoUrl} alt="" class="city-card-logo" />
+            <span>{city.name}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" is:inline></script>
+  <script define:vars={{ mapCities, logoUrl }} is:inline>
+    document.addEventListener('DOMContentLoaded', () => {
+      const el = document.getElementById('einsatzgebiete-map');
+      if (!el || !window.L || !mapCities.length) return;
+
+      const map = L.map(el, { scrollWheelZoom: false });
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 18,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>-Mitwirkende',
+      }).addTo(map);
+
+      const bounds = [];
+
+      mapCities.forEach((city) => {
+        const icon = L.divIcon({
+          className: 'city-marker',
+          html: `<div class="city-marker-inner"><img src="${logoUrl}" alt="" /></div>`,
+          iconSize: [96, 40],
+          iconAnchor: [48, 40],
+        });
+        const marker = L.marker([city.lat, city.lng], { icon }).addTo(map);
+        marker.bindTooltip(city.name, {
+          permanent: true,
+          direction: 'bottom',
+          className: 'city-marker-label',
+          offset: [0, 2],
+        });
+        marker.on('click', () => {
+          window.location.href = `/${city.slug}/`;
+        });
+        bounds.push([city.lat, city.lng]);
+      });
+
+      if (bounds.length) {
+        map.fitBounds(bounds, { padding: [50, 50] });
+      } else {
+        map.setView([51.05, 6.6], 9);
+      }
+    });
+  </script>
+
+  <style>
+    #einsatzgebiete-map {
+      height: 520px;
+      width: 100%;
+      border-radius: var(--radius);
+      border: 1px solid var(--color-border);
+      overflow: hidden;
+    }
+    .map-hint {
+      margin-top: .9rem;
+      font-size: .88rem;
+      color: var(--color-ink-soft);
+    }
+    .city-card {
+      display: flex;
+      align-items: center;
+      gap: .9rem;
+      text-decoration: none;
+      color: var(--color-ink);
+      font-weight: 600;
+      font-family: var(--font-display);
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+    .city-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 24px -12px rgba(20,52,58,.25);
+    }
+    .city-card-logo {
+      height: 28px;
+      width: auto;
+      flex-shrink: 0;
+    }
+    :global(.city-marker-inner) {
+      background: #fff;
+      border: 2px solid var(--color-accent);
+      border-radius: 999px;
+      padding: 5px 12px;
+      box-shadow: 0 6px 16px -4px rgba(0,0,0,.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    :global(.city-marker-inner img) {
+      height: 18px;
+      width: auto;
+      display: block;
+    }
+    :global(.city-marker-label) {
+      background: var(--color-primary-dark) !important;
+      color: #fff !important;
+      border: none !important;
+      border-radius: var(--radius-sm) !important;
+      font-family: var(--font-display);
+      font-size: .75rem !important;
+      font-weight: 700;
+      padding: 2px 8px !important;
+      box-shadow: none !important;
+    }
+    :global(.city-marker-label::before) {
+      display: none !important;
+    }
+  </style>
+</BaseLayout>
