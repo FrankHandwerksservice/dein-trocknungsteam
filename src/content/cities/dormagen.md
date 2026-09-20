@@ -14,6 +14,8 @@ districts:
     areas: "Delhoven, Knechtsteden & Hackenbroich"
   - name: "Dormagen-Ost"
     areas: "Rheinfeld & Horrem"
+fleetHeading: "Voll ausgestattet im Einsatz für Dormagen"
+fleetText: ["Unser Team ist mit vollständig ausgestatteten Fahrzeugen unterwegs – Trocknungsgeräte, Leckortungstechnik und Sanierungswerkzeug haben wir immer griffbereit dabei. So können wir in Dormagen noch am selben Tag mit der Schadensbehebung beginnen.", "Von der ersten Begehung über die Leckortung bis zur abschließenden Trocknung: Wir bringen alles mit, was für eine schnelle und saubere Schadensbehebung nötig ist – ohne zusätzliche Anfahrten oder Wartezeiten für Sie."]
 faq:
   - q: "Übernimmt die Versicherung die Kosten für die Bautrocknung?"
     a: "In den meisten Fällen ja. Wenn der Schaden durch Leitungswasser, Sturm oder Elementarereignisse entstanden ist, kommt die Wohngebäude- oder Hausratversicherung dafür auf."
