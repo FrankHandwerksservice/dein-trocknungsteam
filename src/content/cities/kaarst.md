@@ -1,0 +1,16 @@
+---
+name: "Kaarst"
+metaTitle: "Bautrocknung & Leckortung Kaarst | Dein Trocknungsteam"
+metaDescription: "Feuchte Wände oder Rohrbruch in Kaarst? Wir finden Leckagen zerstörungsfrei, trocknen zuverlässig und kümmern uns um die Abwicklung mit Ihrer Versicherung – schnell vor Ort."
+heroText: "In Kaarst schnell zur Stelle, wenn ein Wasserschaden Ihr Zuhause oder Ihr Gewerbeobjekt bedroht."
+introParagraphs: ["Kaarst wächst seit Jahren spürbar – mit neuen Wohngebieten trifft moderne Bauweise hier auf gewachsene Ortskerne wie Büttgen oder Vorst. Genau diese Mischung verlangt nach einem Fachbetrieb, der beides kennt: den Umgang mit zeitgemäßer Haustechnik ebenso wie mit älterer Bausubstanz, in der sich Feuchtigkeit gerne unbemerkt ausbreitet.", "Ein Rohrbruch unter dem Estrich, eine undichte Leitung in der Wand oder Regenwasser nach einem Starkregen – wir orten die Ursache zielgenau, bevor wir auch nur einen Handgriff an der Bausubstanz vornehmen. Das spart Zeit, schont Ihr Zuhause und sorgt dafür, dass die anschließende Trocknung gezielt dort ansetzt, wo sie wirklich gebraucht wird.", "Kaarst liegt verkehrsgünstig zwischen den Autobahnen 52 und 57 – für uns bedeutet das kurze Wege und eine zügige Anfahrt aus Richtung Neuss und Grevenbroich. Bis Mauerwerk und Estrich wieder trocken sind, begleiten wir den gesamten Prozess und übernehmen auf Wunsch auch die Kommunikation mit Ihrer Versicherung."]
+introImage: "/images/site/trocknungsgeraete-1.webp"
+districtIntro: "In allen Kaarster Stadtteilen sind wir regelmäßig im Einsatz, darunter:"
+districtImage: "/images/site/trocknungsgeraete-2.webp"
+districts: ["Kaarst-Mitte", "Büttgen", "Holzbüttgen", "Vorst", "Driesch", "Vorst-Süd", "Broichhof"]
+fleetHeading: "Bestens ausgerüstet unterwegs in Kaarst und Umgebung"
+fleetText: ["Unsere Einsatzfahrzeuge sind so ausgestattet, dass wir in Kaarst vom ersten Ortungstermin bis zur laufenden Trocknung alles aus einer Hand anbieten können: präzise Messtechnik zur Leckortung, leistungsstarke Trocknungsgeräte und Werkzeug für erste Sofortmaßnahmen am Schadenstag.", "Das erspart Ihnen zusätzliche Wartezeiten auf Spezialisten oder Ersatzteile – wir haben die nötige Technik bereits dabei. Gerade bei akuten Schäden, etwa nach einem Rohrbruch über Nacht, zählt dieser Zeitvorsprung."]
+faq: [{q: "Wie läuft die Leckortung in Kaarst konkret ab?", a: "Wir setzen zerstörungsfreie Ortungsverfahren wie Thermografie, Gasspürtechnik oder Feuchtemessungen ein, um die genaue Schadensstelle einzugrenzen, bevor überhaupt etwas geöffnet werden muss."}, {q: "Zahlt die Versicherung für die Bautrocknung in Kaarst?", a: "In den meisten Fällen ja, sofern der Schaden durch Leitungswasser oder ein anderes versichertes Ereignis verursacht wurde. Wir bereiten die nötigen Nachweise und Verbrauchsdaten für Sie auf."}, {q: "Wie schnell erreichen Sie mich in Kaarst im Notfall?", a: "Dank der zentralen Lage im Rhein-Kreis Neuss sind wir in Kaarst meist innerhalb von 30 bis 45 Minuten vor Ort, bei akuten Fällen entsprechend schneller."}, {q: "Wie lange stehen die Trocknungsgeräte bei mir?", a: "Das hängt vom Feuchtigkeitsgrad ab, im Durchschnitt zwei bis drei Wochen. Wir kontrollieren den Fortschritt regelmäßig und bauen ab, sobald die Zielwerte erreicht sind."}]
+geoLat: 51.2039
+geoLng: 6.5934
+---
