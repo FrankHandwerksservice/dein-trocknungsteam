@@ -13,7 +13,6 @@ const cities = cityEntries
   .sort((a, b) => a.name.localeCompare(b.name, 'de'));
 
 const mapCities = cities.filter((c) => c.lat !== undefined && c.lng !== undefined);
-const logoUrl = "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_1_md2x-1-e1777972942533.webp";
 ---
 <BaseLayout
   title="Einsatzgebiete | Dein Trocknungsteam"
@@ -34,7 +33,7 @@ const logoUrl = "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_
   <section class="section section-alt">
     <div class="container">
       <div id="einsatzgebiete-map"></div>
-      <p class="map-hint">Klicken Sie auf ein Logo, um direkt zur Seite der jeweiligen Stadt zu gelangen.</p>
+      <p class="map-hint">Klicken Sie auf ein Symbol, um direkt zur Seite der jeweiligen Stadt zu gelangen.</p>
     </div>
   </section>
 
@@ -44,7 +43,7 @@ const logoUrl = "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_
       <div class="grid-3 city-grid">
         {cities.map((city) => (
           <a href={`/${city.slug}/`} class="card city-card">
-            <img src={logoUrl} alt="" class="city-card-logo" />
+            <span class="icon-crop icon-crop--card" aria-hidden="true"></span>
             <span>{city.name}</span>
           </a>
         ))}
@@ -54,7 +53,7 @@ const logoUrl = "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" is:inline></script>
-  <script define:vars={{ mapCities, logoUrl }} is:inline>
+  <script define:vars={{ mapCities }} is:inline>
     document.addEventListener('DOMContentLoaded', () => {
       const el = document.getElementById('einsatzgebiete-map');
       if (!el || !window.L || !mapCities.length) return;
@@ -71,9 +70,9 @@ const logoUrl = "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_
       mapCities.forEach((city) => {
         const icon = L.divIcon({
           className: 'city-marker',
-          html: `<div class="city-marker-inner"><img src="${logoUrl}" alt="" /></div>`,
-          iconSize: [96, 40],
-          iconAnchor: [48, 40],
+          html: `<div class="city-marker-inner"><span class="icon-crop icon-crop--marker"></span></div>`,
+          iconSize: [40, 40],
+          iconAnchor: [20, 40],
         });
         const marker = L.marker([city.lat, city.lng], { icon }).addTo(map);
         marker.bindTooltip(city.name, {
@@ -123,26 +122,42 @@ const logoUrl = "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_
       transform: translateY(-2px);
       box-shadow: 0 10px 24px -12px rgba(20,52,58,.25);
     }
-    .city-card-logo {
-      height: 28px;
-      width: auto;
+
+    /*
+      The source logo is a single wide image ("house + orange stripe" icon
+      followed by the "Dein Trocknungsteam" wordmark). Rather than hosting a
+      second, pre-cropped image file, the icon-only portion is cropped out
+      of the existing logo purely with CSS background positioning/sizing,
+      so only the house-and-stripe mark is shown, without the wordmark.
+    */
+    .icon-crop, :global(.icon-crop--marker) {
+      display: block;
+      background-image: url("https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_1_md2x-1-e1777972942533.webp");
+      background-repeat: no-repeat;
       flex-shrink: 0;
+    }
+    .icon-crop--card {
+      width: 41.5px;
+      height: 30px;
+      background-size: 123.5px 33px;
+      background-position: -3.5px -0.3px;
+    }
+    :global(.icon-crop--marker) {
+      width: 33px;
+      height: 24px;
+      background-size: 99px 26px;
+      background-position: -2.8px -0.2px;
     }
     :global(.city-marker-inner) {
       background: #fff;
       border: 2px solid var(--color-accent);
       border-radius: 999px;
-      padding: 5px 12px;
+      padding: 6px;
       box-shadow: 0 6px 16px -4px rgba(0,0,0,.25);
       display: flex;
       align-items: center;
       justify-content: center;
       cursor: pointer;
-    }
-    :global(.city-marker-inner img) {
-      height: 18px;
-      width: auto;
-      display: block;
     }
     :global(.city-marker-label) {
       background: var(--color-primary-dark) !important;
