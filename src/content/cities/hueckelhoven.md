@@ -4,9 +4,9 @@ metaTitle: "Bautrocknung & Leckortung Hückelhoven | Dein Trocknungsteam"
 metaDescription: "Bautrocknung, Leckortung und Wasserschadensanierung in Hückelhoven vom Fachbetrieb – schnelle Hilfe rund um die Uhr, inklusive Unterstützung bei der Versicherung."
 heroText: "Wasserschaden, Feuchtigkeit oder Rohrbruch in Hückelhoven? Wir sind rund um die Uhr für Sie erreichbar und schnell vor Ort."
 introParagraphs: ["Ob nach einem Rohrbruch, starkem Regen oder einer schleichenden Leckage: In Hückelhoven und der Region zwischen Rur und niederländischer Grenze sind wir Ihr Ansprechpartner, wenn schnelles Handeln gefragt ist.", "Mit feinfühliger Messtechnik finden wir die Ursache der Feuchtigkeit, ohne unnötig Wände oder Böden zu öffnen. Anschließend trocknen wir betroffene Bauteile konsequent aus, damit sich weder Schimmel noch Folgeschäden ausbreiten können.", "Die Kommunikation mit Ihrer Versicherung nehmen wir Ihnen ab: Wir dokumentieren jeden Schritt sauber, damit die Kostenerstattung möglichst reibungslos funktioniert."]
-introImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_20_sm2x.webp"
+introImage: "/images/site/trocknungsgeraete-1.webp"
 districtIntro: "Von der Stadtmitte bis in die umliegenden Ortsteile sind wir in Hückelhoven regelmäßig im Einsatz, darunter:"
-districtImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_21_sm2x.webp"
+districtImage: "/images/site/trocknungsgeraete-2.webp"
 districts: ["Stadtmitte", "Ratheim", "Altmyhl", "Golkrath", "Houverath", "Hetzerath", "Doveren", "Baal", "Brachelen", "Hilfarth", "Himmerich", "Millich", "Dremmen"]
 fleetHeading: "Immer einsatzbereit für Hückelhoven und Umgebung"
 fleetText: ["Unsere Fahrzeuge sind durchgehend mit Trocknungsgeräten, Ortungstechnik und Material für erste Sanierungsschritte bestückt. So können wir in Hückelhoven häufig direkt beim Ersttermin mit den notwendigen Maßnahmen beginnen.", "Egal ob Begehung, Leckortung oder laufende Trocknungskontrolle – dank vollständiger Ausstattung sparen wir uns zusätzliche Anfahrten und damit wertvolle Zeit für Sie."]

@@ -4,9 +4,9 @@ metaTitle: "Leckortung & Bautrocknung Neuss | Dein Trocknungsteam"
 metaDescription: "Leckortung und Bautrocknung in Neuss vom Fachbetrieb direkt vor Ort – zerstörungsfreie Ortung, schnelle Trocknung und 24h Nothilfe inklusive Versicherungsabwicklung."
 heroText: "Wasserschaden in Neuss? Wir sind direkt vor Ort und für Sie da – zerstörungsfreie Leckortung und professionelle Trocknung rund um die Uhr."
 introParagraphs: ["Neuss ist unser Zuhause – hier sind wir zu Hause und entsprechend schnell bei Ihnen vor Ort, egal ob in der historischen Innenstadt, einem der gewachsenen Stadtteile oder einem Gewerbegebiet am Hafen. Diese Ortsnähe kommt Ihnen bei jedem Einsatz zugute.", "Ob akuter Rohrbruch, eine schleichende Leckage oder Feuchtigkeit nach Starkregen: Mit moderner, zerstörungsarmer Messtechnik finden wir die Schadensursache punktgenau, statt Wände oder Böden auf Verdacht zu öffnen. Unsere Trocknungsgeräte sorgen anschließend dafür, dass Wände, Böden und Dämmschichten vollständig austrocknen, bevor Folgeschäden wie Schimmel entstehen können.", "Wir arbeiten mit allen gängigen Gebäudeversicherungen zusammen und übernehmen die lückenlose Dokumentation, damit die Kostenübernahme für Sie reibungslos verläuft."]
-introImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_20_sm2x.webp"
+introImage: "/images/site/trocknungsgeraete-1.webp"
 districtIntro: "Da wir direkt in Neuss ansässig sind, sind wir in jedem Stadtteil in kürzester Zeit vor Ort, unter anderem in:"
-districtImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_21_sm2x.webp"
+districtImage: "/images/site/trocknungsgeraete-2.webp"
 districts: ["Innenstadt", "Furth", "Weckhoven", "Erfttal", "Reuschenberg", "Uedesheim", "Grimlinghausen", "Selikum", "Holzheim", "Grefrath", "Norf", "Rosellen", "Gnadental", "Vogelsang"]
 fleetHeading: "Als Neusser Betrieb sofort für Sie einsatzbereit"
 fleetText: ["Da unser Standort mitten in Neuss liegt, sind unsere Fahrzeuge mit Ortungstechnik, Trocknungsgeräten und Material für erste Sicherungsmaßnahmen in der Regel besonders schnell bei Ihnen – oft innerhalb weniger Minuten.", "Ob Innenstadt, Furth, Norf oder Rosellen – dank kurzer Wege und vollständig ausgestatteter Fahrzeuge können wir in Neuss meist noch am selben Tag mit der Schadensbehebung beginnen."]

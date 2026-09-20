@@ -4,9 +4,9 @@ metaTitle: "Leckortung & Bautrocknung Erkelenz | Dein Trocknungsteam"
 metaDescription: "Leckortung, Bautrocknung und Wasserschadensanierung in Erkelenz vom Fachbetrieb – zerstörungsfreie Ortung, schnelle Trocknung und Versicherungsabwicklung."
 heroText: "Wasserschaden in Erkelenz? Wir finden die Ursache zerstörungsfrei und trocknen zuverlässig – schnelle Hilfe in der Stadt und allen Stadtbezirken."
 introParagraphs: ["Erkelenz mit seinen zahlreichen Stadtbezirken zwischen offener Landschaft und gewachsenen Ortskernen ist uns bestens vertraut. Egal ob Neubau, Altbau oder landwirtschaftlich geprägtes Gebäude – wir wissen, worauf es bei einem Wasserschaden in dieser Region ankommt.", "Ob Rohrbruch, eine undichte Leitung oder Feuchtigkeit im Keller nach Starkregen: Mit moderner, zerstörungsarmer Messtechnik lokalisieren wir die Schadensursache gezielt, bevor wir mit leistungsstarken Geräten Wände, Böden und Dämmschichten vollständig austrocknen.", "Auch die Kommunikation mit Ihrer Gebäude- oder Hausratversicherung übernehmen wir – mit einer sauberen Dokumentation aller Maßnahmen, damit die Kostenübernahme unkompliziert verläuft."]
-introImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_20_sm2x.webp"
+introImage: "/images/site/trocknungsgeraete-1.webp"
 districtIntro: "In der Kernstadt und den umliegenden Stadtbezirken von Erkelenz sind wir regelmäßig im Einsatz, unter anderem in:"
-districtImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_21_sm2x.webp"
+districtImage: "/images/site/trocknungsgeraete-2.webp"
 districts: ["Erkelenz", "Gerderath", "Schwanenberg", "Golkrath", "Granterath", "Hetzerath", "Lövenich", "Kückhoven", "Venrath", "Holzweiler"]
 fleetHeading: "Zügig in jedem Stadtbezirk von Erkelenz einsatzbereit"
 fleetText: ["Unsere Einsatzfahrzeuge sind durchgehend mit Ortungstechnik, Trocknungsgeräten und Material für erste Sicherungsarbeiten bestückt. So können wir in Erkelenz meist bereits beim Ersttermin mit den notwendigen Maßnahmen beginnen.", "Ob in der Kernstadt, in Gerderath oder in Holzweiler – dank vollständig ausgestatteter Fahrzeuge sind wir in ganz Erkelenz schnell vor Ort und sparen uns zusätzliche Anfahrten."]

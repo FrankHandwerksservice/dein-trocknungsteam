@@ -4,9 +4,9 @@ metaTitle: "Leckortung & Bautrocknung Erkrath | Dein Trocknungsteam"
 metaDescription: "Leckortung und Bautrocknung in Erkrath vom Fachbetrieb – zerstörungsfreie Ortung, schnelle Trocknung und Unterstützung bei der Versicherung."
 heroText: "Wasserschaden in Erkrath? Wir orten die Ursache zerstörungsfrei und trocknen zuverlässig – schnelle Hilfe zwischen Alt-Erkrath und Hochdahl."
 introParagraphs: ["Erkrath liegt zwischen dem historischen Ortskern von Alt-Erkrath und der modernen Neuen-Stadt Hochdahl – zwei sehr unterschiedliche Baustrukturen, die wir bei jedem Einsatz berücksichtigen. Ob Altbau, Reihenhaus oder Geschosswohnung: Wir sind Ihr Fachbetrieb für Leckortung und Bautrocknung in der gesamten Stadt.", "Ob Rohrbruch, eine undichte Leitung oder Feuchtigkeit nach Starkregen: Mit zerstörungsarmer Messtechnik lokalisieren wir die Schadensursache gezielt, statt Wände oder Böden vorschnell großflächig zu öffnen. Anschließend sorgen unsere Trocknungsgeräte für eine vollständige Austrocknung der betroffenen Bereiche.", "Die Abstimmung mit Ihrer Gebäude- oder Hausratversicherung übernehmen wir für Sie, inklusive lückenloser Dokumentation aller Messwerte und Arbeitsschritte."]
-introImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_20_sm2x.webp"
+introImage: "/images/site/trocknungsgeraete-1.webp"
 districtIntro: "In allen Stadtteilen von Erkrath sind wir regelmäßig im Einsatz, unter anderem in:"
-districtImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_21_sm2x.webp"
+districtImage: "/images/site/trocknungsgeraete-2.webp"
 districts: ["Alt-Erkrath", "Hochdahl", "Unterfeldhaus"]
 fleetHeading: "Schnell zwischen Alt-Erkrath und Hochdahl vor Ort"
 fleetText: ["Unsere Fahrzeuge sind durchgehend mit Ortungstechnik, Trocknungsgeräten und Material für erste Sicherungsmaßnahmen ausgestattet. So können wir in Erkrath meist bereits beim Ersttermin mit den notwendigen Arbeiten beginnen.", "Ob in Alt-Erkrath, Hochdahl oder Unterfeldhaus – dank vollständiger Ausstattung sind wir in der gesamten Stadt schnell einsatzbereit und sparen uns zusätzliche Anfahrten, die nur unnötig Zeit kosten."]

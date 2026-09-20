@@ -4,9 +4,9 @@ metaTitle: "Leckortung & Bautrocknung Wesseling | Dein Trocknungsteam"
 metaDescription: "Bautrocknung, Leckortung und Wasserschadensanierung in Wesseling vom Fachbetrieb – zerstörungsfreie Ortung und schnelle Trocknung, inklusive Versicherungsabwicklung."
 heroText: "Wasserschaden in Wesseling? Wir finden die Ursache zerstörungsfrei und trocknen zuverlässig – schnelle Hilfe direkt am Rhein."
 introParagraphs: ["Wesseling liegt direkt am Rhein, geprägt von Wohnsiedlungen ebenso wie von Industrie und Hafenanlagen. Egal ob Reihenhaus, Geschosswohnung oder Gewerbeobjekt – wir kennen die typischen Schadensbilder der Region und wissen, worauf es bei der Trocknung ankommt.", "Ein Rohrbruch, eine undichte Leitung oder eindringende Feuchtigkeit nach Starkregen sind kein Grund, den Boden großflächig zu öffnen. Mit präziser, zerstörungsarmer Messtechnik lokalisieren wir die Schadensstelle exakt, bevor wir mit leistungsstarken Trocknungsgeräten für eine vollständige Austrocknung von Wänden, Böden und Dämmschichten sorgen.", "Auch die Abwicklung mit Ihrer Versicherung übernehmen wir: Wir dokumentieren jeden Schritt lückenlos, damit die Kostenübernahme unkompliziert verläuft."]
-introImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_20_sm2x.webp"
+introImage: "/images/site/trocknungsgeraete-1.webp"
 districtIntro: "Von der Stadtmitte bis an die Ortsränder sind wir in ganz Wesseling im Einsatz, unter anderem in:"
-districtImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_21_sm2x.webp"
+districtImage: "/images/site/trocknungsgeraete-2.webp"
 districts: ["Wesseling-Mitte", "Keldenich", "Berzdorf", "Urfeld"]
 fleetHeading: "Zuverlässig unterwegs für Wesseling und Umgebung"
 fleetText: ["Unsere Einsatzfahrzeuge führen Trocknungsgeräte, Ortungstechnik und Material für erste Sicherungsarbeiten stets mit sich. So können wir in Wesseling häufig direkt beim ersten Termin mit der eigentlichen Schadensbehebung beginnen.", "Ob in Wesseling-Mitte, Keldenich, Berzdorf oder Urfeld – dank vollständig ausgestatteter Fahrzeuge sind wir schnell vor Ort und sparen uns zusätzliche Anfahrten, die nur unnötig Zeit kosten."]

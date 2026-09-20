@@ -4,9 +4,9 @@ metaTitle: "Bautrocknung & Leckortung Krefeld | Dein Trocknungsteam"
 metaDescription: "Leckortung und Bautrocknung in Krefeld vom Fachbetrieb: zerstörungsfreie Ortung, schnelle Trocknung und Unterstützung bei der Versicherungsabwicklung."
 heroText: "Bei Wasserschäden, Feuchtigkeit oder Leckagen in Krefeld sind wir sofort für Sie da – zuverlässig, gründlich und rund um die Uhr erreichbar."
 introParagraphs: ["Ein Wasserschaden duldet keinen Aufschub – gerade in Krefeld, wo viele Alt- und Gründerzeitbauten besonders empfindlich auf eindringende Feuchtigkeit reagieren. Als eingespieltes Team kümmern wir uns schnell und fachgerecht um die Schadensbehebung in Wohn- und Gewerbeimmobilien.", "Statt großflächig zu öffnen, setzen wir auf präzise, zerstörungsfreie Messtechnik, um Leckagen punktgenau zu lokalisieren. Im Anschluss trocknen wir betroffene Wände, Böden und Dämmungen mit professionellem Equipment vollständig aus und verhindern so Schimmelbildung und Folgeschäden.", "Auch die Abstimmung mit Ihrer Gebäude- oder Hausratversicherung übernehmen wir – inklusive lückenloser Dokumentation, damit die Erstattung Ihrer Kosten unkompliziert verläuft."]
-introImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_20_sm2x.webp"
+introImage: "/images/site/trocknungsgeraete-1.webp"
 districtIntro: "Wir sind in nahezu allen Stadtteilen Krefelds unterwegs und meist schnell bei Ihnen vor Ort. Dazu zählen unter anderem:"
-districtImage: "https://dein-trocknungsteam.de/wp-content/uploads/2026/05/imgi_21_sm2x.webp"
+districtImage: "/images/site/trocknungsgeraete-2.webp"
 districts: ["Innenstadt", "Dießem", "Lehmheide", "Uerdingen", "Hohenbudberg", "Gellep-Stratum", "Fischeln", "Oppum", "Linn", "Bockum", "Cracau", "Verberg", "Traar", "Hüls", "Stadtwald"]
 fleetHeading: "Unsere Einsatzfahrzeuge sind startklar für Krefeld"
 fleetText: ["Jedes unserer Fahrzeuge ist vollständig mit Trocknungsgeräten, Messtechnik zur Leckortung und Werkzeug für erste Sanierungsmaßnahmen ausgestattet. Dadurch können wir in Krefeld in der Regel noch am selben Tag mit den notwendigen Arbeiten beginnen.", "Vom ersten Vor-Ort-Termin bis zur letzten Trocknungsmessung sind wir mit allem ausgerüstet, was für eine reibungslose Schadensbehebung nötig ist – ohne Wartezeiten durch zusätzliche Anfahrten."]
