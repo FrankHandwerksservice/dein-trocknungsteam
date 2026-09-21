@@ -8,7 +8,7 @@ const services = [
 <div class="grid-3">
   {services.map((s) => (
     <a href={s.href} class="card service-card">
-      <img src={s.icon} alt="" class="service-icon" loading="lazy" />
+      <img src={s.icon} alt={`Icon ${s.title}`} title={s.title} class="service-icon" loading="lazy" />
       <h3>{s.title}</h3>
       <p>{s.text}</p>
     </a>

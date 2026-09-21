@@ -9,11 +9,11 @@ const badges = [
   { src: "/images/partner/barmenia-gothaer-versicherung.webp", alt: "Barmenia Gothaer Versicherung" },
   { src: "/images/partner/continentale-versicherung.webp", alt: "Die Continentale Versicherung" },
 ];
-const loopBadges = [...badges, ...badges];
 ---
 <div class="badges-marquee" role="img" aria-label="Versicherungspartner: R+V, RheinLand, Allianz, ERGO, LVM, AXA, Barmenia Gothaer, Die Continentale">
   <div class="badges-track">
-    {loopBadges.map((b) => <img src={b.src} alt="" loading="lazy" />)}
+    {badges.map((b) => <img src={b.src} alt={b.alt} title={b.alt} loading="lazy" />)}
+    {badges.map((b) => <img src={b.src} alt={b.alt} title={b.alt} loading="lazy" aria-hidden="true" />)}
   </div>
 </div>
 
