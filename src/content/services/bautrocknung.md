@@ -1,5 +1,5 @@
 ---
-title: "Technische Bautrocknung für Gebäude jeder Art"
+title: "Bautrocknung für Gebäude jeder Art"
 heroSubtitle: "Kontrollierte technische Trocknung nach Wasserschäden oder während der Bauphase."
 metaDescription: "Professionelle Bautrocknung nach Wasserschäden. Effiziente Trocknung mit moderner Technik zur Vermeidung von Folgeschäden."
 heroImage: "/images/bautrocknung/trocknungsgeraet-wand.jpg"

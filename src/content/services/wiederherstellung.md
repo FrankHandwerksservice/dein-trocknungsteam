@@ -1,5 +1,5 @@
 ---
-title: "Sanierung nach Wasserschäden für Gebäude jeder Art"
+title: "Sanierung nach Wasserschäden"
 heroSubtitle: "Ob Malerarbeiten, Trockenbau oder Bodenarbeiten. Wir machen das!"
 metaDescription: "Professionelle Sanierung nach Wasserschaden: Malerarbeiten, Trockenbau & Bodenbeläge in Neuss & Düsseldorf."
 heroImage: "/images/sanierung/malerarbeiten.webp"
