@@ -58,7 +58,7 @@ const breadcrumbJsonLd = JSON.stringify({
       </div>
       {introImage && (
         <div class="content-photo">
-          <img src={introImage} alt={`Bautrocknung in ${name}`} loading="lazy" />
+          <img src={introImage} alt={`Bautrocknung in ${name}`} title={`Bautrocknung in ${name}`} loading="lazy" />
         </div>
       )}
     </div>
@@ -69,7 +69,7 @@ const breadcrumbJsonLd = JSON.stringify({
   <div class={`container content-grid reverse ${districtImage ? '' : 'single'}`}>
     {districtImage && (
       <div class="content-photo">
-        <img src={districtImage} alt={`Stadtteile in ${name}`} loading="lazy" />
+        <img src={districtImage} alt={`Stadtteile in ${name}`} title={`Stadtteile in ${name}`} loading="lazy" />
       </div>
     )}
     <div class="prose">
@@ -91,7 +91,7 @@ const breadcrumbJsonLd = JSON.stringify({
       )}
     </div>
     <div class="content-photo">
-      <img src="/images/bautrocknung/fahrzeug-geraete.jpg" alt={`Unser Team und Equipment im Einsatz in ${name}`} loading="lazy" />
+      <img src="/images/bautrocknung/fahrzeug-geraete.jpg" alt={`Unser Team und Equipment im Einsatz in ${name}`} title={`Unser Team und Equipment im Einsatz in ${name}`} loading="lazy" />
     </div>
   </div>
 </section>

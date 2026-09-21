@@ -20,6 +20,8 @@ const { title, description, geoLat, geoLng, geoPlacename, jsonLd } = Astro.props
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -32,7 +34,11 @@ const { title, description, geoLat, geoLng, geoPlacename, jsonLd } = Astro.props
         <meta name="ICBM" content={`${geoLat}, ${geoLng}`} />
       </>
     )}
-    <link rel="stylesheet" href="https://use.typekit.net/yez0rtj.css" />
+    <link rel="preconnect" href="https://use.typekit.net" crossorigin />
+    <link rel="preconnect" href="https://p.typekit.net" crossorigin />
+    <link rel="preload" as="style" href="https://use.typekit.net/yez0rtj.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/yez0rtj.css" media="print" onload="this.media='all'; this.onload=null;" />
+    <noscript><link rel="stylesheet" href="https://use.typekit.net/yez0rtj.css" /></noscript>
     {jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
   </head>
   <body>

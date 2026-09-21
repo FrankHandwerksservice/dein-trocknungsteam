@@ -8,7 +8,7 @@ const formattedDate = pubDate.toLocaleDateString('de-DE', { year: 'numeric', mon
 <BaseLayout title={`${title} | Dein Trocknungsteam`} description={metaDescription}>
 <article class="section">
 <div class="container prose">
-{heroImage && <img src={heroImage} alt={title} class="post-hero-image" />}
+{heroImage && <img src={heroImage} alt={title} title={title} class="post-hero-image" />}
 <p class="post-date">{formattedDate}</p>
 <slot />
 <div class="post-cta">
