@@ -14,10 +14,16 @@ description="Erfahren Sie alles über professionelle Trocknung, Leckortung und S
 <div class="container">
 <h1>Ratgeber & News rund um die Trocknung und Sanierung</h1>
 <p class="prose">In unserem Magazin finden Sie Experten-Tipps zur Trocknung, Leckortung und Schimmelvermeidung.</p>
+<p class="prose">
+  Von den ersten Anzeichen eines Wasserschadens über die richtige Vorgehensweise bei der Trocknung bis hin zu
+  Fragen rund um Versicherung und Kostenübernahme: Wir teilen hier unser Praxiswissen aus über 10 Jahren
+  Erfahrung im Rhein-Kreis Neuss – verständlich erklärt und ohne Fachjargon, damit Sie im Ernstfall schnell
+  die richtigen Entscheidungen treffen können.
+</p>
 <div class="grid-3 post-grid">
 {posts.map((post) => (
 <a href={`/${post.slug}/`} class="card post-card">
-{post.data.heroImage && <img src={post.data.heroImage} alt={post.data.title} class="post-thumb" loading="lazy" />}
+{post.data.heroImage && <img src={post.data.heroImage} alt={post.data.title} title={post.data.title} class="post-thumb" loading="lazy" />}
 <h3>{post.data.title}</h3>
 <p>{post.data.metaDescription}</p>
 </a>
