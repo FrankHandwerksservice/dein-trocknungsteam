@@ -7,7 +7,8 @@
     --color-primary: #14343A;
     --color-primary-dark: #0D2226;
     --color-accent: #F2760F;
-    --color-accent-dark: #C25E0A;
+    --color-accent-dark: #A84C08;
+    --color-accent-darker: #8A3D06;
     --color-teal: #0F5C57;
     --color-border: #E8E3D9;
 
@@ -99,11 +100,11 @@ a { color: var(--color-primary); }
 .btn:hover { transform: translateY(-2px); }
 
 .btn-call {
-    background: var(--color-accent);
+    background: var(--color-accent-dark);
     color: #fff;
     box-shadow: 0 8px 20px -6px rgba(242,118,15,.55);
 }
-.btn-call:hover { background: var(--color-accent-dark); }
+.btn-call:hover { background: var(--color-accent-darker); }
 
 .btn-secondary {
     background: transparent;
