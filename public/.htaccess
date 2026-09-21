@@ -5,9 +5,8 @@ RewriteEngine On
 # Duplicate/old slug -> current service page
 RewriteRule ^sanierung/?$ /wiederherstellung/ [R=301,L]
 
-# Deferred content gaps -> homepage for now (pages to be rebuilt later)
+# Deferred content gap -> homepage for now (page to be rebuilt later)
 RewriteRule ^abdichtung/?$ / [R=301,L]
-RewriteRule ^ueber-uns/?$ / [R=301,L]
 
 # Missing blog article -> blog overview
 RewriteRule ^leckortung-ohne-stemmarbeiten-so-finden-wir-den-schaden-unsichtbar/?$ /blog/ [R=301,L]
