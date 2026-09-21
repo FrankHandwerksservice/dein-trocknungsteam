@@ -2,10 +2,55 @@
 import BaseLayout from './BaseLayout.astro';
 import ServicesGrid from '../components/ServicesGrid.astro';
 import CallButton from '../components/CallButton.astro';
+import CityLinkGrid from '../components/CityLinkGrid.astro';
+import FaqAccordion from '../components/FaqAccordion.astro';
 
-const { title, heroSubtitle, metaDescription, heroImage, techniquesHeading, techniquesImage, techniques } = Astro.props;
+const { title, heroSubtitle, metaDescription, heroImage, techniquesHeading, techniquesImage, techniques, cities, citiesHeading, citiesIntro, faq } = Astro.props;
+
+const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
+const homeUrl = new URL('/', Astro.site).toString();
+
+const jsonLdBlocks = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Startseite", "item": homeUrl },
+      { "@type": "ListItem", "position": 2, "name": title, "item": pageUrl },
+    ],
+  },
+];
+
+if (cities && cities.length > 0) {
+  jsonLdBlocks.push({
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": title,
+    "description": metaDescription,
+    "areaServed": cities.map((c: { name: string }) => ({ "@type": "City", "name": c.name })),
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Dein Trocknungsteam",
+      "url": homeUrl,
+    },
+  });
+}
+
+if (faq && faq.length > 0) {
+  jsonLdBlocks.push({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faq.map((item: { q: string; a: string }) => ({
+      "@type": "Question",
+      "name": item.q,
+      "acceptedAnswer": { "@type": "Answer", "text": item.a },
+    })),
+  });
+}
+
+const combinedJsonLd = JSON.stringify(jsonLdBlocks);
 ---
-<BaseLayout title={`${title} | Dein Trocknungsteam`} description={metaDescription}>
+<BaseLayout title={`${title} | Dein Trocknungsteam`} description={metaDescription} jsonLd={combinedJsonLd}>
   <section class="hero">
     <div class="container">
       <h1>{title}</h1>
@@ -52,6 +97,25 @@ const { title, heroSubtitle, metaDescription, heroImage, techniquesHeading, tech
     </div>
   </section>
 
+  {cities && cities.length > 0 && (
+    <section class="section section-alt">
+      <div class="container">
+        <h2>{citiesHeading || `${title} in Ihrer Region`}</h2>
+        <p class="cities-intro">{citiesIntro}</p>
+        <CityLinkGrid cities={cities} />
+      </div>
+    </section>
+  )}
+
+  {faq && faq.length > 0 && (
+    <section class="section">
+      <div class="container">
+        <h2>Häufig gestellte Fragen</h2>
+        <FaqAccordion faq={faq} />
+      </div>
+    </section>
+  )}
+
   <style>
     .hero {
       padding: 3.5rem 0 2.5rem;
@@ -91,6 +155,10 @@ const { title, heroSubtitle, metaDescription, heroImage, techniquesHeading, tech
       object-fit: cover;
       position: absolute;
       inset: 0;
+    }
+    .cities-intro {
+      color: var(--color-ink-soft);
+      max-width: 75ch;
     }
     @media (max-width: 800px) {
       .content-grid { grid-template-columns: 1fr; }
