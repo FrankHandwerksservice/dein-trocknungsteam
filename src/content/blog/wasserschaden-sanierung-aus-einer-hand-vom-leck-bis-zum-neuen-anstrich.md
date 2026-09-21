@@ -1,5 +1,5 @@
 ---
-title: "Wasserschadensanierung aus einer Hand: Vom Leck bis zum neuen Anstrich"
+title: "Wasserschadensanierung aus einer Hand"
 metaDescription: "Leckortung, Trocknung, Malerarbeiten – wie eine Komplettsanierung aus einer Hand nach einem Wasserschaden Zeit, Nerven und Kosten spart."
 pubDate: 2026-05-08
 heroImage: "/images/sanierung/malerarbeiten.webp"

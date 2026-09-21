@@ -1,5 +1,5 @@
 ---
-title: "Wer zahlt die Bautrocknung nach einem Wasserschaden?"
+title: "Wer zahlt die Bautrocknung?"
 metaDescription: "Gebäude- oder Hausratversicherung? Wir erklären, wer nach einem Wasserschaden für Leckortung, Bautrocknung und Sanierung aufkommt."
 pubDate: 2026-06-03
 heroImage: "/images/bautrocknung/trocknungsgeraet-wand.jpg"

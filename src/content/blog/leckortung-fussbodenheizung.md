@@ -1,5 +1,5 @@
 ---
-title: "Leckortung Fußbodenheizung: Schäden frühzeitig erkennen und gezielt beheben"
+title: "Leckortung Fußbodenheizung"
 metaDescription: "Undichte Fußbodenheizung? So erkennen Sie die Warnzeichen und wie moderne, zerstörungsfreie Leckortung die Schadstelle präzise findet."
 pubDate: 2026-05-27
 heroImage: "/images/leckortung/thermografie.webp"

@@ -1,5 +1,5 @@
 ---
-title: "Leckortung bei Wasserschaden: Leckagen schnell finden, Folgeschäden vermeiden"
+title: "Leckortung bei Wasserschaden"
 metaDescription: "Feuchte Stelle, muffiger Geruch, steigende Wasserrechnung? So funktioniert professionelle Leckortung – Methoden, Ablauf und realistische Kosten."
 pubDate: 2026-05-22
 heroImage: "/images/leckortung/messtechnik.webp"

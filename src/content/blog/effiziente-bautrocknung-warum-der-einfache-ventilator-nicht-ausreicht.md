@@ -1,5 +1,5 @@
 ---
-title: "Effiziente Bautrocknung: Warum der einfache Ventilator nicht ausreicht"
+title: "Warum ein Ventilator nicht ausreicht"
 metaDescription: "Nach Rohrbruch oder Hochwasser reicht Lüften allein nicht aus. Warum professionelle Bautrocknungsgeräte nötig sind und wie der Prozess abläuft."
 pubDate: 2026-05-04
 heroImage: "/images/bautrocknung/trocknungsgeraet-detail.webp"
