@@ -1,10 +1,27 @@
 ---
-import { getEntry } from 'astro:content';
+import { getEntry, getCollection } from 'astro:content';
 import ServiceLayout from '../layouts/ServiceLayout.astro';
 
 const entry = await getEntry('services', 'leckortung');
 const { Content: Body } = await entry.render();
+
+const cityEntries = await getCollection('cities');
+const cities = cityEntries
+  .map((c) => ({ name: c.data.name, slug: c.slug }))
+  .sort((a, b) => a.name.localeCompare(b.name, 'de'));
 ---
-<ServiceLayout title={entry.data.title} heroSubtitle={entry.data.heroSubtitle} metaDescription={entry.data.metaDescription} heroImage={entry.data.heroImage} techniquesHeading={entry.data.techniquesHeading} techniquesImage={entry.data.techniquesImage} techniques={entry.data.techniques}>
+<ServiceLayout
+  title={entry.data.title}
+  heroSubtitle={entry.data.heroSubtitle}
+  metaDescription={entry.data.metaDescription}
+  heroImage={entry.data.heroImage}
+  techniquesHeading={entry.data.techniquesHeading}
+  techniquesImage={entry.data.techniquesImage}
+  techniques={entry.data.techniques}
+  cities={cities}
+  citiesHeading="Leckortung in Ihrer Region"
+  citiesIntro="Wir sind rund um Neuss und Grevenbroich ebenso im Einsatz wie im gesamten Rhein-Kreis Neuss, in Düsseldorf, Köln und den umliegenden Kreisen Mettmann und Heinsberg. Direkt zu Ihrer Stadt:"
+  faq={entry.data.faq}
+>
   <Body />
 </ServiceLayout>
