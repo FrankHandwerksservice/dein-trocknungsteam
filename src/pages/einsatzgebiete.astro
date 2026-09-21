@@ -27,6 +27,16 @@ const mapCities = cities.filter((c) => c.lat !== undefined && c.lng !== undefine
         bei Wasserschäden, Leckagen und allem, was danach an Trocknung und Sanierung folgt. Finden Sie Ihre
         Stadt auf der Karte oder in der Übersicht darunter.
       </p>
+      <p>
+        Egal ob Leckortung, Bautrocknung oder die anschließende Sanierung: In allen unten aufgeführten Städten
+        bieten wir das komplette Leistungsspektrum an – nicht nur einzelne Teilschritte. Durch unsere zentrale
+        Lage in Neuss erreichen wir die meisten Einsatzorte in kurzer Zeit, was gerade bei akuten Wasserschäden
+        entscheidend ist, um Folgeschäden wie Schimmelbildung zu vermeiden.
+      </p>
+      <p>
+        Sie finden Ihre Stadt nicht in der Liste? Sprechen Sie uns trotzdem an – je nach Lage und Auftragslage
+        übernehmen wir auch Einsätze außerhalb der hier genannten Kernregion.
+      </p>
     </div>
   </section>
 
@@ -48,11 +58,17 @@ const mapCities = cities.filter((c) => c.lat !== undefined && c.lng !== undefine
           </a>
         ))}
       </div>
+      <p class="city-grid-note">
+        Sie haben eine Frage zu Ihrem Einsatzgebiet oder möchten wissen, wie schnell wir bei Ihnen vor Ort sein
+        können? Rufen Sie uns direkt an – wir sagen Ihnen sofort, ob und wann wir bei Ihnen einsatzbereit sind.
+      </p>
     </div>
   </section>
 
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" is:inline></script>
+  <link rel="preload" as="style" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" media="print" onload="this.media='all'; this.onload=null;" />
+  <noscript><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /></noscript>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer is:inline></script>
   <script define:vars={{ mapCities }} is:inline>
     document.addEventListener('DOMContentLoaded', () => {
       const el = document.getElementById('einsatzgebiete-map');
@@ -107,6 +123,11 @@ const mapCities = cities.filter((c) => c.lat !== undefined && c.lng !== undefine
       margin-top: .9rem;
       font-size: .88rem;
       color: var(--color-ink-soft);
+    }
+    .city-grid-note {
+      margin-top: 2rem;
+      color: var(--color-ink-soft);
+      max-width: var(--measure);
     }
     .city-card {
       display: flex;
