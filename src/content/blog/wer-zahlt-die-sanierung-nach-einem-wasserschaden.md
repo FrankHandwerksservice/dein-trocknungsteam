@@ -1,5 +1,5 @@
 ---
-title: "Wer zahlt die Sanierung nach einem Wasserschaden?"
+title: "Sanierung nach Wasserschaden: Wer zahlt?"
 metaDescription: "Estrich, Putz, Tapeten, Bodenbeläge: Wer übernimmt die Kosten der Sanierung nach der Bautrocknung? Wir erklären Zuständigkeiten und Versicherungsfragen."
 pubDate: 2026-09-21
 heroImage: "/images/sanierung/bodenverlegung.webp"
