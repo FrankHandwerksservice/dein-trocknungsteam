@@ -1,0 +1,179 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CallButton from '../components/CallButton.astro';
+import TrustBadges from '../components/TrustBadges.astro';
+
+const stats = [
+  { value: "10", label: "Jahre Erfahrung" },
+  { value: "250+", label: "umgesetzte Projekte" },
+  { value: "98%", label: "Erfolgsquote bei Leckortung" },
+  { value: "1 Tag", label: "bis zur Schadensaufnahme" },
+];
+
+const werte = [
+  { title: "Ursache statt Symptom", text: "Wir trocknen nicht einfach drauflos, sondern finden zuerst die genaue Schadensursache – zerstörungsfrei und dokumentiert. Nur so lässt sich ein Wasserschaden dauerhaft beheben." },
+  { title: "Transparenz gegenüber Versicherungen", text: "Jeder Schritt wird lückenlos dokumentiert. Das schafft Vertrauen bei Ihnen und sorgt dafür, dass die Abrechnung mit Ihrer Gebäudeversicherung reibungslos verläuft." },
+  { title: "Persönlicher Ansprechpartner", text: "Bei uns bekommen Sie keinen wechselnden Kundenservice, sondern einen festen Ansprechpartner, der Ihren Schadensfall von Anfang bis Ende begleitet." },
+  { title: "Schnell vor Ort", text: "Ein Wasserschaden wartet nicht. Deshalb sind wir im Rhein-Kreis Neuss und der Umgebung in der Regel innerhalb kurzer Zeit einsatzbereit." },
+];
+---
+<BaseLayout
+  title="Über uns | Dein Trocknungsteam"
+  description="Dein Trocknungsteam ist die Marke der Frank Handwerksservice GmbH für Leckortung und Bautrocknung. Erfahren Sie mehr über unser Team, unsere Arbeitsweise und Philipp Frank."
+>
+  <section class="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <p class="eyebrow">Über uns</p>
+        <h1>Ihr eingespieltes Team für Leckortung und Bautrocknung</h1>
+        <p class="hero-subtitle">Dein Trocknungsteam ist die Marke der Frank Handwerksservice GmbH – seit über 10 Jahren im Rhein-Kreis Neuss und der Umgebung im Einsatz, wenn schnelle und präzise Hilfe bei Wasserschäden gefragt ist.</p>
+        <CallButton />
+      </div>
+    </div>
+    <div class="container">
+      <TrustBadges />
+    </div>
+  </section>
+
+  <section class="section" id="geschichte">
+    <div class="container uber-grid">
+      <div>
+        <p class="eyebrow">Wer wir sind</p>
+        <h2>Ein kleines Team, das genau weiß, was es tut</h2>
+        <p>Dein Trocknungsteam ist die Marke der Frank Handwerksservice GmbH und steht seit über 10 Jahren für Leckortung und Bautrocknung im Rhein-Kreis Neuss und der Umgebung. Geführt wird das Unternehmen von Philipp Frank, der mit seinem Team an sieben Tagen die Woche für Kunden erreichbar ist, wenn es schnell gehen muss.</p>
+        <p>Wir sind bewusst ein kleines, eingespieltes Team geblieben. Das bedeutet für Sie: kurze Wege, feste Ansprechpartner und Entscheidungen, die vor Ort getroffen werden können – ohne Rückfragen durch mehrere Hierarchieebenen. Als in die Handwerksrolle eingetragener Handwerksbetrieb arbeiten wir nach handwerklichen Qualitätsstandards.</p>
+      </div>
+      <div class="uber-photo">
+        <img src="/images/site/trocknungsgeraete-1.webp" alt="Das Team von Dein Trocknungsteam im Einsatz" loading="lazy" />
+        <p class="uber-quote">„Leckortung und Bautrocknung darf kein Glücksspiel sein“</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="marke">
+    <div class="container uber-grid">
+      <div class="uber-photo">
+        <img src="/images/site/trocknungsgeraete-2.webp" alt="Trocknungsgeräte im Einsatz beim Wasserschaden" loading="lazy" />
+      </div>
+      <div>
+        <p class="eyebrow">Klar aufgestellt</p>
+        <h2>Dein Trocknungsteam &amp; Frank Handwerksservice GmbH</h2>
+        <p>Hinter Dein Trocknungsteam steht die Frank Handwerksservice GmbH mit Sitz in Neuss. Als Marke des Unternehmens konzentriert sich Dein Trocknungsteam gezielt auf Leckortung und Bautrocknung, während die Frank Handwerksservice GmbH darüber hinaus auch Abdichtung und Innenausbau anbietet.</p>
+        <p>Diese klare Aufteilung sorgt dafür, dass Sie bei einem Wasserschaden immer den richtigen Ansprechpartner erreichen – mit dem passenden Fachwissen für genau diesen Fall.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="werte">
+    <div class="container">
+      <h2 class="text-center">Wofür wir stehen</h2>
+      <div class="grid-2">
+        {werte.map((w) => (
+          <div class="card">
+            <h3>{w.title}</h3>
+            <p>{w.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="zahlen">
+    <div class="container">
+      <h2>Hinter jeder Zahl steckt Engagement, Qualität und sichtbarer Erfolg</h2>
+      <div class="grid-3">
+        {stats.map((s) => (
+          <div class="card stat-card">
+            <p class="stat-value">{s.value}</p>
+            <p class="stat-label">{s.label}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="standort">
+    <div class="container standort-grid">
+      <div>
+        <p class="eyebrow">Vor Ort für Sie</p>
+        <h2>Unser Standort in Neuss</h2>
+        <p>Von unserem Standort Am Alten Bach 93b in 41470 Neuss aus sind wir täglich im gesamten Rhein-Kreis Neuss, in Grevenbroich, Düsseldorf und der weiteren Umgebung unterwegs. Unsere Fahrzeuge sind vollständig mit Leckortungs- und Trocknungstechnik ausgestattet, damit wir bei einem Notfall ohne Umwege direkt loslegen können.</p>
+        <CallButton label="Jetzt Kontakt aufnehmen" />
+      </div>
+    </div>
+  </section>
+
+<style>
+.hero {
+  padding: 4rem 0 3rem;
+  background: linear-gradient(180deg, var(--color-surface), var(--color-bg));
+  border-bottom: 1px solid var(--color-border);
+}
+.hero-inner { max-width: 62ch; }
+.hero-subtitle {
+  color: var(--color-ink-soft);
+  font-size: 1.15rem;
+  margin-bottom: 1.75rem;
+}
+.uber-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+.uber-photo {
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+  min-height: 380px;
+}
+.uber-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+}
+.uber-photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(255,255,255,0) 0%, rgba(0,0,0,.85) 100%);
+}
+.uber-quote {
+  position: absolute;
+  left: 1.5rem;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 1;
+  color: white;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin: 0;
+}
+@media (max-width: 800px) {
+  .uber-grid { grid-template-columns: 1fr; }
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+@media (max-width: 800px) {
+  .grid-2 { grid-template-columns: 1fr; }
+}
+.grid-2 .card h3 { margin: 0 0 .5rem; }
+.grid-2 .card p { margin: 0; color: var(--color-ink-soft); }
+.stat-card { text-align: left; }
+.stat-value {
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  color: var(--color-accent);
+  margin: 0;
+}
+.stat-label { color: var(--color-ink-soft); font-family: var(--font-body); margin: .3rem 0 0; font-size: .9rem; }
+.standort-grid { max-width: 62ch; }
+</style>
+</BaseLayout>
