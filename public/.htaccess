@@ -18,6 +18,9 @@ RewriteRule ^themen/?$ /blog/ [R=301,L]
 # Safety net for old Kreis Düren slug variant
 RewriteRule ^kreis-dueren/?$ /dueren/ [R=301,L]
 
+# Legacy/expected sitemap URL -> actual Astro-generated sitemap index
+RewriteRule ^sitemap\.xml$ /sitemap-index.xml [R=301,L]
+
 # --- Browser caching for static assets (PageSpeed: "Effiziente Verweildauer im Cache") ---
 # Astro fingerprints its own build output (/_astro/*), so those files never change
 # under the same filename and can be cached "forever". Images, fonts and icons are
