@@ -9,6 +9,12 @@ const cityEntries = await getCollection('cities');
 const cities = cityEntries
   .map((c) => ({ name: c.data.name, slug: c.slug }))
   .sort((a, b) => a.name.localeCompare(b.name, 'de'));
+
+const relatedPosts = [
+  { slug: "effiziente-bautrocknung-warum-der-einfache-ventilator-nicht-ausreicht", title: "Warum ein Ventilator nicht ausreicht", excerpt: "Nach Rohrbruch oder Hochwasser reicht Lüften allein nicht aus – warum professionelle Bautrocknungsgeräte nötig sind." },
+  { slug: "wer-zahlt-die-bautrocknung-nach-einem-wasserschaden", title: "Wer zahlt die Bautrocknung?", excerpt: "Gebäude- oder Hausratversicherung? Wer nach einem Wasserschaden für die Bautrocknung aufkommt." },
+  { slug: "wasserschaden-unter-dem-estrich", title: "Wasserschaden unter dem Estrich", excerpt: "So erkennen Sie einen Wasserschaden unter dem Estrich rechtzeitig – 7 Anzeichen." },
+];
 ---
 <ServiceLayout
   title={entry.data.title}
@@ -19,6 +25,7 @@ const cities = cityEntries
   techniquesImage={entry.data.techniquesImage}
   techniques={entry.data.techniques}
   cities={cities}
+  relatedPosts={relatedPosts}
   serviceType="Bautrocknung"
   citiesHeading="Bautrocknung in Ihrer Region"
   citiesIntro="Als Trocknungsfirma sind wir rund um Neuss und Grevenbroich ebenso im Einsatz wie im gesamten Rhein-Kreis Neuss, in Düsseldorf, Köln und den umliegenden Kreisen Mettmann und Heinsberg. Direkt zu Ihrer Stadt:"

@@ -5,9 +5,9 @@ import TrustBadges from '../components/TrustBadges.astro';
 
 const stats = [
   { value: "10", label: "Jahre Erfahrung" },
-  { value: "250+", label: "umgesetzte Projekte" },
-  { value: "98%", label: "Erfolgsquote bei Leckortung" },
   { value: "1 Tag", label: "bis zur Schadensaufnahme" },
+  { value: "7 Tage", label: "die Woche erreichbar" },
+  { value: "Fest", label: "ein Ansprechpartner pro Auftrag" },
 ];
 
 const werte = [
@@ -31,6 +31,7 @@ const werte = [
       </div>
     </div>
     <div class="container">
+      <p class="trust-caption">Wir rechnen mit allen gängigen Versicherern ab, u.&nbsp;a.:</p>
       <TrustBadges />
     </div>
   </section>
@@ -114,6 +115,12 @@ const werte = [
   color: var(--color-ink-soft);
   font-size: 1.15rem;
   margin-bottom: 1.75rem;
+}
+.trust-caption {
+  font-size: .85rem;
+  color: var(--color-ink-soft);
+  text-align: center;
+  margin: 0 0 .5rem;
 }
 .uber-grid {
   display: grid;

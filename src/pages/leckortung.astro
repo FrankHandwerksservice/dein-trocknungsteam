@@ -9,6 +9,12 @@ const cityEntries = await getCollection('cities');
 const cities = cityEntries
   .map((c) => ({ name: c.data.name, slug: c.slug }))
   .sort((a, b) => a.name.localeCompare(b.name, 'de'));
+
+const relatedPosts = [
+  { slug: "leckortung-bei-wasserschaden-leckagen-schnell-finden", title: "Leckortung bei Wasserschaden", excerpt: "Feuchte Stelle, muffiger Geruch, steigende Wasserrechnung? So funktioniert professionelle Leckortung." },
+  { slug: "leckortung-fussbodenheizung", title: "Leckortung Fußbodenheizung", excerpt: "Undichte Fußbodenheizung? So erkennen Sie die Warnzeichen und wie zerstörungsfreie Leckortung hilft." },
+  { slug: "wasserschaden-unter-dem-estrich", title: "Wasserschaden unter dem Estrich", excerpt: "So erkennen Sie einen Wasserschaden unter dem Estrich rechtzeitig – 7 Anzeichen." },
+];
 ---
 <ServiceLayout
   title={entry.data.title}
@@ -19,6 +25,7 @@ const cities = cityEntries
   techniquesImage={entry.data.techniquesImage}
   techniques={entry.data.techniques}
   cities={cities}
+  relatedPosts={relatedPosts}
   serviceType="Leckortung"
   citiesHeading="Leckortung in Ihrer Region"
   citiesIntro="Wir sind rund um Neuss und Grevenbroich ebenso im Einsatz wie im gesamten Rhein-Kreis Neuss, in Düsseldorf, Köln und den umliegenden Kreisen Mettmann und Heinsberg. Direkt zu Ihrer Stadt:"
