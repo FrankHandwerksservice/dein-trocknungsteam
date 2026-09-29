@@ -13,10 +13,22 @@ const cities = cityEntries
   .sort((a, b) => a.name.localeCompare(b.name, 'de'));
 
 const mapCities = cities.filter((c) => c.lat !== undefined && c.lng !== undefined);
+
+const homeUrl = new URL('/', Astro.site).toString();
+const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
+const jsonLd = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Startseite", "item": homeUrl },
+    { "@type": "ListItem", "position": 2, "name": "Einsatzgebiete", "item": pageUrl },
+  ],
+});
 ---
 <BaseLayout
   title="Einsatzgebiete | Dein Trocknungsteam"
   description="Leckortung, Bautrocknung und Sanierung – das sind unsere Einsatzgebiete rund um Neuss und den Rhein-Kreis. Finden Sie Ihre Stadt auf der Karte."
+  jsonLd={jsonLd}
 >
   <section class="section">
     <div class="container">

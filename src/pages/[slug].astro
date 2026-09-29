@@ -13,6 +13,6 @@ props: { post },
 const { post } = Astro.props;
 const { Content } = await post.render();
 ---
-<BlogLayout title={post.data.title} metaDescription={post.data.metaDescription} pubDate={post.data.pubDate} heroImage={post.data.heroImage}>
+<BlogLayout title={post.data.title} metaDescription={post.data.metaDescription} pubDate={post.data.pubDate} heroImage={post.data.heroImage} slug={post.slug}>
 <Content />
 </BlogLayout>
