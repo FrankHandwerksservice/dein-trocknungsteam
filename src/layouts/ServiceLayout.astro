@@ -5,12 +5,16 @@ import CallButton from '../components/CallButton.astro';
 import CityLinkGrid from '../components/CityLinkGrid.astro';
 import FaqAccordion from '../components/FaqAccordion.astro';
 
-const { title, heroSubtitle, metaDescription, heroImage, techniquesHeading, techniquesImage, techniques, cities, citiesHeading, citiesIntro, faq } = Astro.props;
+const { title, heroSubtitle, metaDescription, heroImage, techniquesHeading, techniquesImage, techniques, cities, citiesHeading, citiesIntro, faq, serviceType } = Astro.props;
 
 const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
 const homeUrl = new URL('/', Astro.site).toString();
+const businessId = `${homeUrl}#business`;
 
-const jsonLdBlocks = [
+// Kreis-Seiten (übergeordnete Gebiete) sind AdministrativeArea, keine City
+const isAdministrativeArea = (slug: string) => slug.startsWith('kreis-');
+
+const jsonLdBlocks: any[] = [
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -21,20 +25,24 @@ const jsonLdBlocks = [
   },
 ];
 
-if (cities && cities.length > 0) {
-  jsonLdBlocks.push({
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": title,
-    "description": metaDescription,
-    "areaServed": cities.map((c: { name: string }) => ({ "@type": "City", "name": c.name })),
-    "provider": {
-      "@type": "LocalBusiness",
-      "name": "Dein Trocknungsteam",
-      "url": homeUrl,
-    },
-  });
-}
+jsonLdBlocks.push({
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": `${pageUrl}#service`,
+  "name": title,
+  "serviceType": serviceType || title,
+  "url": pageUrl,
+  "description": metaDescription,
+  ...(cities && cities.length > 0
+    ? {
+        "areaServed": cities.map((c: { name: string; slug: string }) => ({
+          "@type": isAdministrativeArea(c.slug) ? "AdministrativeArea" : "City",
+          "name": c.name,
+        })),
+      }
+    : {}),
+  "provider": { "@id": businessId },
+});
 
 if (faq && faq.length > 0) {
   jsonLdBlocks.push({

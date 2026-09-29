@@ -10,8 +10,9 @@ interface Props {
   geoLng?: number;
   geoPlacename?: string;
   jsonLd?: string;
+  ogImage?: string;
 }
-const { title, description, geoLat, geoLng, geoPlacename, jsonLd } = Astro.props;
+const { title, description, geoLat, geoLng, geoPlacename, jsonLd, ogImage } = Astro.props;
 ---
 <!doctype html>
 <html lang="de">
@@ -25,6 +26,9 @@ const { title, description, geoLat, geoLng, geoPlacename, jsonLd } = Astro.props
     <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={new URL(Astro.url.pathname, Astro.site).toString()} />
+    <meta property="og:image" content={new URL(ogImage || '/images/site/logo.webp', Astro.site).toString()} />
     <meta property="og:locale" content="de_DE" />
     {geoLat !== undefined && geoLng !== undefined && (
       <>
