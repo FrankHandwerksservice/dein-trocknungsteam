@@ -17,7 +17,7 @@ faq:
     a: "Als Trocknungsfirma sind wir unter anderem in Neuss, Grevenbroich, Düsseldorf, Köln, Krefeld, Mönchengladbach und vielen weiteren Städten der Region im Einsatz. Eine Übersicht aller Einsatzgebiete finden Sie weiter unten auf dieser Seite."
 ---
 
-## Kontrollierte Bautrocknung – schnell, DIN-konform, ohne Folgeschäden
+## Kontrollierte Bautrocknung – schnell, fachgerecht, ohne Folgeschäden
 
 Ob nach einem Rohrbruch, Starkregen oder während der Bauphase: Feuchtigkeit in Wänden, Decken und Böden muss zügig und kontrolliert entfernt werden, damit sich keine Schäden an der Bausubstanz oder Schimmel bilden. Wir setzen professionelle Kondensations- und Adsorptionstrockner ein, messen die Restfeuchte fortlaufend und dokumentieren den Trocknungsverlauf lückenlos – für eine reibungslose Abrechnung mit Ihrer Versicherung.
 
