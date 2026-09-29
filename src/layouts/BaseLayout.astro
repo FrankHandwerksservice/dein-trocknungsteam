@@ -39,6 +39,56 @@ const { title, description, geoLat, geoLng, geoPlacename, jsonLd } = Astro.props
     <link rel="preload" as="style" href="https://use.typekit.net/yez0rtj.css" />
     <link rel="stylesheet" href="https://use.typekit.net/yez0rtj.css" media="print" onload="this.media='all'; this.onload=null;" />
     <noscript><link rel="stylesheet" href="https://use.typekit.net/yez0rtj.css" /></noscript>
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": ["HomeAndConstructionBusiness", "LocalBusiness"],
+          "@id": "https://dein-trocknungsteam.de/#business",
+          "name": "Dein Trocknungsteam",
+          "legalName": "Frank Handwerksservice GmbH",
+          "url": "https://dein-trocknungsteam.de/",
+          "logo": "https://dein-trocknungsteam.de/images/site/logo.webp",
+          "image": "https://dein-trocknungsteam.de/images/site/logo.webp",
+          "description": "Leckortung, Bautrocknung und Wasserschadensanierung in Neuss und Umgebung.",
+          "telephone": "+4915785119191",
+          "email": "info@frank-handwerksservice.de",
+          "founder": { "@type": "Person", "name": "Philipp Frank" },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Am Alten Bach 93b",
+            "postalCode": "41470",
+            "addressLocality": "Neuss",
+            "addressRegion": "NRW",
+            "addressCountry": "DE"
+          },
+          "areaServed": [
+            {"@type": "City", "name": "Neuss"},
+            {"@type": "City", "name": "Düsseldorf"},
+            {"@type": "City", "name": "Grevenbroich"},
+            {"@type": "City", "name": "Krefeld"},
+            {"@type": "City", "name": "Mönchengladbach"}
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Leistungen",
+            "itemListElement": [
+              {"@type": "Offer", "itemOffered": {"@id": "https://dein-trocknungsteam.de/leckortung/#service"}},
+              {"@type": "Offer", "itemOffered": {"@id": "https://dein-trocknungsteam.de/bautrocknung/#service"}},
+              {"@type": "Offer", "itemOffered": {"@id": "https://dein-trocknungsteam.de/wiederherstellung/#service"}}
+            ]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://dein-trocknungsteam.de/#website",
+          "url": "https://dein-trocknungsteam.de/",
+          "name": "Dein Trocknungsteam",
+          "inLanguage": "de-DE",
+          "publisher": {"@id": "https://dein-trocknungsteam.de/#business"}
+        }
+      ]
+    })} />
     {jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
   </head>
   <body>
