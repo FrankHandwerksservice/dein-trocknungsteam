@@ -99,20 +99,28 @@ const stats = [
   <section class="section" id="referenzen">
     <div class="container">
       <h2 class="text-center">Erlebnisse, die überzeugen</h2>
+      <p class="referenzen-rating text-center">★★★★★ 5,0 von 5 · echte Google-Bewertungen</p>
       <div class="grid-3">
         <div class="card">
-          <p>"Schnelle Reaktion, saubere Arbeit und sehr gute Kommunikation während des gesamten Einsatzes."</p>
-          <p class="testimonial-author">Edgar Taach, Immonovesia GmbH</p>
+          <p class="testimonial-stars">★★★★★</p>
+          <p>"Wunderbare Zusammenarbeit und absolut empfehlenswert! Die Leckageortung wurde schnell und professionell durchgeführt. Super Service, unkomplizierte Kommunikation und eine wirklich reibungslose Abwicklung."</p>
+          <p class="testimonial-author">Philip Mlitzko</p>
+          <p class="testimonial-source">Google-Bewertung, September 2026</p>
         </div>
         <div class="card">
-          <p>"Das Team hat die Leckage schnell und ohne unnötige Schäden lokalisiert und direkt die Trocknung eingeleitet."</p>
-          <p class="testimonial-author">Matthias Commerscheidt, Eigentümer</p>
+          <p class="testimonial-stars">★★★★★</p>
+          <p>"Leckage in der Zwischendecke zwischen EG und Keller geortet und gefunden. Auch die Trocknung und Wiederherstellung im Nachgang hat reibungslos funktioniert. Absolute Empfehlung!"</p>
+          <p class="testimonial-author">Matthias Commerscheidt</p>
+          <p class="testimonial-source">Google-Bewertung, Mai 2026</p>
         </div>
         <div class="card">
-          <p>"Besonders beeindruckt hat uns die strukturierte Vorgehensweise und die transparente Erklärung aller Schritte."</p>
-          <p class="testimonial-author">Sonja Bursy, Hausverwaltung Nikolai GmbH</p>
+          <p class="testimonial-stars">★★★★★</p>
+          <p>"Top Beratung, immer wieder gerne. Absolut zu empfehlen!"</p>
+          <p class="testimonial-author">Lennard Ratzer</p>
+          <p class="testimonial-source">Google-Bewertung, September 2025</p>
         </div>
       </div>
+      <p class="referenzen-link text-center"><a href="https://www.google.com/maps/place/Dein+Trocknungsteam+-+Leckortung+und+Bautrocknung/@51.1349088,6.7473374,17z/data=!4m8!3m7!1s0x47bf3545becc067d:0x8112ae3131fe52f3!8m2!3d51.1349088!4d6.7499123!9m1!1b1!16s%2Fg%2F11vql_zwx4" target="_blank" rel="noopener">Alle Bewertungen bei Google ansehen</a></p>
     </div>
   </section>
 
@@ -244,6 +252,26 @@ const stats = [
   margin-top: 1rem;
   margin-bottom: 0;
 }
+.testimonial-stars {
+  color: #F5A623;
+  letter-spacing: .1rem;
+  margin: 0 0 .6rem;
+  font-size: .95rem;
+}
+.testimonial-source {
+  color: var(--color-ink-soft);
+  font-family: var(--font-body);
+  font-size: .78rem;
+  margin: .15rem 0 0;
+}
+.referenzen-rating {
+  color: var(--color-ink-soft);
+  font-size: .95rem;
+  margin: -.5rem 0 2rem;
+}
+.referenzen-link { margin: 2rem 0 0; }
+.referenzen-link a { color: var(--color-accent); font-weight: 600; text-decoration: none; }
+.referenzen-link a:hover { text-decoration: underline; }
 #referenzen .card p { font-family: var(--font-body); }
 </style>
 </BaseLayout>
