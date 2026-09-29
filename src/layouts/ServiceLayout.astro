@@ -5,7 +5,7 @@ import CallButton from '../components/CallButton.astro';
 import CityLinkGrid from '../components/CityLinkGrid.astro';
 import FaqAccordion from '../components/FaqAccordion.astro';
 
-const { title, heroSubtitle, metaDescription, heroImage, techniquesHeading, techniquesImage, techniques, cities, citiesHeading, citiesIntro, faq, serviceType } = Astro.props;
+const { title, heroSubtitle, metaDescription, heroImage, techniquesHeading, techniquesImage, techniques, cities, citiesHeading, citiesIntro, faq, serviceType, relatedPosts } = Astro.props;
 
 const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
 const homeUrl = new URL('/', Astro.site).toString();
@@ -105,6 +105,22 @@ const combinedJsonLd = JSON.stringify(jsonLdBlocks);
     </div>
   </section>
 
+  {relatedPosts && relatedPosts.length > 0 && (
+    <section class="section section-alt">
+      <div class="container">
+        <h2>Weiterführende Artikel</h2>
+        <div class="grid-3 related-posts">
+          {relatedPosts.map((p: { slug: string; title: string; excerpt: string }) => (
+            <a href={`/${p.slug}/`} class="card related-post-card">
+              <h3>{p.title}</h3>
+              <p>{p.excerpt}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
   {cities && cities.length > 0 && (
     <section class="section section-alt">
       <div class="container">
@@ -168,6 +184,14 @@ const combinedJsonLd = JSON.stringify(jsonLdBlocks);
       color: var(--color-ink-soft);
       max-width: 75ch;
     }
+    .related-post-card {
+      text-decoration: none;
+      color: inherit;
+      border-top: 3px solid var(--color-accent);
+      display: block;
+    }
+    .related-post-card h3 { margin: 0 0 .5rem; }
+    .related-post-card p { margin: 0; color: var(--color-ink-soft); font-size: .92rem; }
     @media (max-width: 800px) {
       .content-grid { grid-template-columns: 1fr; }
       .content-grid.reverse { grid-template-columns: 1fr; }

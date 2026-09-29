@@ -2,7 +2,7 @@
 import BaseLayout from './BaseLayout.astro';
 import CallButton from '../components/CallButton.astro';
 
-const { title, metaDescription, pubDate, heroImage, slug } = Astro.props;
+const { title, metaDescription, pubDate, heroImage, slug, serviceHref, serviceLabel } = Astro.props;
 const formattedDate = pubDate.toLocaleDateString('de-DE', { year: 'numeric', month: 'long', day: 'numeric' });
 
 const homeUrl = new URL('/', Astro.site).toString();
@@ -42,6 +42,11 @@ const combinedJsonLd = JSON.stringify(jsonLdBlocks);
 {heroImage && <img src={heroImage} alt={title} title={title} class="post-hero-image" />}
 <p class="post-date">{formattedDate}</p>
 <slot />
+{serviceHref && (
+  <p class="post-related-link">
+    Mehr zum Thema: <a href={serviceHref}>{serviceLabel}</a> · Wir sind auch in <a href="/neuss/">Neuss</a> für Sie im Einsatz.
+  </p>
+)}
 <div class="post-cta">
 <p>Haben Sie aktuell einen Wasserschaden?</p>
 <CallButton label="Jetzt Hilfe anfordern" />
@@ -71,5 +76,13 @@ border: 1px solid var(--color-border);
 border-radius: var(--radius);
 }
 .post-cta p { margin-top: 0; font-weight: 600; }
+.post-related-link {
+margin-top: 2.5rem;
+padding-top: 1.5rem;
+border-top: 1px solid var(--color-border);
+color: var(--color-ink-soft);
+font-size: .95rem;
+}
+.post-related-link a { color: var(--color-accent); font-weight: 600; }
 </style>
 </BaseLayout>
