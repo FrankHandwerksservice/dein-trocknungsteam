@@ -1,0 +1,56 @@
+---
+import LocationServiceLayout from '../layouts/LocationServiceLayout.astro';
+
+const faq = [
+  {
+    q: "Ich habe gerade einen Wasserschaden in Neuss – was tue ich zuerst?",
+    a: "Stellen Sie wenn möglich die Hauptwasserzufuhr ab und sichern Sie elektrische Geräte im betroffenen Bereich. Rufen Sie uns anschließend an – wir klären die Schadenslage am Telefon und sind meist innerhalb von 30 Minuten bei Ihnen."
+  },
+  {
+    q: "Wie schnell sind Sie bei einem Wasserschaden in Neuss vor Ort?",
+    a: "Da unser Standort direkt in Neuss liegt, sind wir bei akuten Notfällen meist besonders schnell bei Ihnen – häufig innerhalb von 30 Minuten."
+  },
+  {
+    q: "Kümmern Sie sich um Leckortung, Trocknung und Wiederherstellung aus einer Hand?",
+    a: "Ja. Wir orten das Leck zerstörungsfrei, trocknen die betroffenen Bauteile technisch und übernehmen auf Wunsch auch die anschließende Wiederherstellung – Trockenbau, Malerarbeiten und Bodenarbeiten."
+  },
+  {
+    q: "Übernimmt die Versicherung die Kosten bei einem Wasserschaden in Neuss?",
+    a: "Bei einem versicherten Leitungswasserschaden übernimmt in der Regel die Gebäudeversicherung die Kosten für Leckortung, Trocknung und die Wiederherstellung der Bausubstanz. Wir dokumentieren den Schaden lückenlos und stimmen den Ablauf auf Wunsch direkt mit Ihrer Versicherung ab."
+  },
+];
+
+const relatedLinks = [
+  { href: "/leckortung/neuss/", label: "Leckortung in Neuss" },
+  { href: "/bautrocknung/neuss/", label: "Bautrocknung in Neuss" },
+  { href: "/wiederherstellung/", label: "Wiederherstellung nach dem Wasserschaden" },
+  { href: "/neuss/", label: "Alle Leistungen in Neuss auf einen Blick" },
+];
+---
+<LocationServiceLayout
+  title="Wasserschaden Neuss | Soforthilfe vom Fachbetrieb | Dein Trocknungsteam"
+  metaDescription="Wasserschaden in Neuss? Leckortung, Bautrocknung und Wiederherstellung aus einer Hand – als ortsansässiger Betrieb meist innerhalb von 30 Minuten vor Ort."
+  breadcrumbLabel="Wasserschaden Neuss"
+  heroEyebrow="Soforthilfe bei Wasserschaden"
+  heroTitle="Wasserschaden in Neuss? Wir sind schnell bei Ihnen"
+  heroSubtitle="Rohrbruch, Leckage oder Starkregen: Als Betrieb mit Sitz in Neuss sind wir meist innerhalb von 30 Minuten vor Ort – mit Leckortung, Bautrocknung und Wiederherstellung aus einer Hand."
+  serviceType="Wasserschadensanierung"
+  cityName="Neuss"
+  faq={faq}
+  relatedLinks={relatedLinks}
+  geoLat={51.1985}
+  geoLng={6.6889}
+>
+  <p>Ein Wasserschaden in Neuss verlangt schnelles Handeln – jede Minute, die Feuchtigkeit unentdeckt in Wände, Estrich oder Dämmschicht zieht, vergrößert den Schaden an der Bausubstanz. Da unser Standort direkt in Neuss liegt, sind unsere Fahrzeuge mit Ortungstechnik, Trocknungsgeräten und Material für erste Sicherungsmaßnahmen meist innerhalb von 30 Minuten bei Ihnen.</p>
+
+  <h2>Ein echter Fall aus Neuss</h2>
+  <p>Vor Kurzem sind wir in Neuss wegen eines Wasserschadens durch eine beschädigte Abwasserleitung ausgerückt. Nach der Ortung wurde der betroffene Trockenbau geöffnet, die Dämmschicht mittels JATI-Verfahren entkeimt und anschließend technisch getrocknet. Solche Komplettfälle – von der ersten Ortung bis zur abgeschlossenen Trocknung – sind für uns in Neuss Tagesgeschäft.</p>
+
+  <h2>Drei Schritte bei einem Wasserschaden in Neuss</h2>
+  <p><strong>1. Leckortung.</strong> Mit zerstörungsarmer Messtechnik – Thermografie, akustische Leckortung, Tracergas, Endoskopie – finden wir die Ursache punktgenau, statt auf Verdacht zu öffnen.</p>
+  <p><strong>2. Bautrocknung.</strong> Kondensations- oder Adsorptionstrockner sorgen dafür, dass Wände, Estrich und Dämmschicht kontrolliert und vollständig austrocknen, bevor Schimmel oder dauerhafte Schäden entstehen.</p>
+  <p><strong>3. Wiederherstellung.</strong> Auf Wunsch übernehmen wir im Anschluss auch Trockenbau-, Maler- und Bodenarbeiten, damit Ihre Immobilie schnell wieder bewohnbar ist.</p>
+
+  <h2>Kosten und Versicherung</h2>
+  <p>Bei einem versicherten Leitungswasserschaden übernimmt in der Regel die Gebäudeversicherung die Kosten für Leckortung, Trocknung und die Wiederherstellung der Bausubstanz. Wir dokumentieren den Schaden lückenlos und stimmen den Ablauf auf Wunsch direkt mit Ihrer Versicherung ab.</p>
+</LocationServiceLayout>
