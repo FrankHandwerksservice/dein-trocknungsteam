@@ -1,0 +1,52 @@
+---
+import LocationServiceLayout from '../../layouts/LocationServiceLayout.astro';
+
+const faq = [
+  {
+    q: "Wie schnell können Sie mit der Bautrocknung in Neuss beginnen?",
+    a: "Da unser Standort direkt in Neuss liegt, können wir bei akuten Fällen meist noch am selben Tag mit dem Aufbau der Trocknungsgeräte beginnen."
+  },
+  {
+    q: "Wie lange dauert eine Bautrocknung in der Regel?",
+    a: "Je nach Schwere des Schadens dauert eine technische Trocknung in der Regel zwischen 14 und 21 Tagen. Wir führen regelmäßige Kontrollmessungen durch und dokumentieren den Fortschritt laufend."
+  },
+  {
+    q: "Kann ich während der Bautrocknung in meiner Wohnung in Neuss bleiben?",
+    a: "In der Regel ja. Moderne Trockner arbeiten deutlich leiser als frühere Geräte. Bei besonders starken Schäden sprechen wir mit Ihnen ab, ob ein vorübergehendes Ausweichen sinnvoll ist."
+  },
+  {
+    q: "Übernimmt die Versicherung die Kosten der Bautrocknung in Neuss?",
+    a: "Liegt ein versicherter Leitungswasserschaden vor, übernimmt in der Regel die Gebäudeversicherung die Kosten der Bautrocknung. Wir protokollieren Geräteeinsatz und Stromverbrauch so, dass die Abrechnung reibungslos verläuft."
+  },
+];
+
+const relatedLinks = [
+  { href: "/bautrocknung/", label: "Mehr zur Bautrocknung: Verfahren, Ablauf und Kosten" },
+  { href: "/neuss/", label: "Alle Leistungen in Neuss auf einen Blick" },
+  { href: "/leckortung/neuss/", label: "Vor der Trocknung: Leckortung in Neuss" },
+];
+---
+<LocationServiceLayout
+  title="Bautrocknung Neuss | Technische Trocknung vom Fachbetrieb | Dein Trocknungsteam"
+  metaDescription="Bautrocknung in Neuss vom ortsansässigen Fachbetrieb: schneller Geräteaufbau, laufende Kontrollmessungen und lückenlose Dokumentation für Ihre Versicherung."
+  breadcrumbLabel="Bautrocknung Neuss"
+  heroTitle="Bautrocknung in Neuss – kontrolliert, dokumentiert, ohne Folgeschäden"
+  heroSubtitle="Als Neusser Betrieb sind unsere Trocknungsgeräte meist noch am selben Tag bei Ihnen im Einsatz – mit laufender Erfolgskontrolle bis zur vollständigen Austrocknung."
+  serviceType="Bautrocknung"
+  cityName="Neuss"
+  faq={faq}
+  relatedLinks={relatedLinks}
+  geoLat={51.1985}
+  geoLng={6.6889}
+>
+  <p>Ob Innenstadt, Furth, Norf oder Rosellen – dank kurzer Wege und vollständig ausgestatteter Fahrzeuge können wir in Neuss meist noch am selben Tag mit dem Geräteaufbau beginnen. Unsere Kondensations- und Adsorptionstrockner laufen anschließend rund um die Uhr, damit Wände, Estrich und Dämmung so schnell wie möglich wieder trocken sind.</p>
+
+  <h2>Ein echter Fall aus Neuss</h2>
+  <p>Nach einem Wasserschaden durch eine beschädigte Abwasserleitung haben wir in Neuss den Trockenbaukoffer geöffnet, die Dämmschicht mittels JATI-Verfahren entkeimt und anschließend technisch getrocknet – ein typischer Ablauf, wenn Abwasser in die Bausubstanz eingedrungen ist.</p>
+
+  <h2>So läuft die Bautrocknung in Neuss ab</h2>
+  <p>Zunächst bestimmen wir den Umfang der Durchfeuchtung in Wänden, Estrich und Dämmschicht und legen das Trocknungskonzept fest. Je nach Schadensbild kommen Kondensations- oder Adsorptionstrockner, Dämmschichttrockner oder Infrarot-Flächentrockner zum Einsatz. Die Restfeuchte prüfen wir in regelmäßigen Abständen, den Stromverbrauch protokollieren wir exakt – erst wenn die Zielfeuchte erreicht ist, gilt der Bereich als trocken.</p>
+
+  <h2>Kosten und Versicherung</h2>
+  <p>Die Kosten hängen vor allem vom Durchfeuchtungsgrad, der Anzahl der benötigten Geräte und der Trocknungsdauer ab. Liegt ein versicherter Leitungswasserschaden vor, übernimmt in den meisten Fällen die Gebäudeversicherung die Kosten der Bautrocknung.</p>
+</LocationServiceLayout>
