@@ -1,0 +1,52 @@
+---
+import LocationServiceLayout from '../../layouts/LocationServiceLayout.astro';
+
+const faq = [
+  {
+    q: "Wie schnell sind Sie bei einer Leckortung in Düsseldorf vor Ort?",
+    a: "Von unserem Standort in Neuss aus sind wir in Düsseldorf in der Regel innerhalb von 20 bis 30 Minuten vor Ort, bei akuten Notfällen entsprechend zügig."
+  },
+  {
+    q: "Arbeiten Sie in ganz Düsseldorf oder nur in bestimmten Stadtteilen?",
+    a: "Wir sind im gesamten Düsseldorfer Stadtgebiet im Einsatz, von der Innenstadt bis in die umliegenden Stadtteile – auf Anfrage klären wir gerne, wie schnell wir konkret bei Ihnen sein können."
+  },
+  {
+    q: "Wie funktioniert eine zerstörungsfreie Leckortung?",
+    a: "Mit Verfahren wie Thermografie, akustischer Leckortung, Tracergas und Endoskopie lokalisieren wir die Schadstelle punktgenau, ohne Wände aufzustemmen oder Böden großflächig zu öffnen."
+  },
+  {
+    q: "Wer zahlt die Leckortung bei einem Wasserschaden in Düsseldorf?",
+    a: "Ist die Ursache ein versicherter Leitungswasserschaden, übernimmt in der Regel die Gebäudeversicherung die Kosten der Leckortung. Wir dokumentieren den Befund für eine unkomplizierte Abrechnung."
+  },
+];
+
+const relatedLinks = [
+  { href: "/leckortung/", label: "Mehr zur Leckortung: Techniken, Ablauf und Kosten" },
+  { href: "/dusseldorf/", label: "Alle Leistungen in Düsseldorf auf einen Blick" },
+  { href: "/bautrocknung/", label: "Nach der Ortung: professionelle Bautrocknung" },
+];
+---
+<LocationServiceLayout
+  title="Leckortung Düsseldorf | Zerstörungsfreie Ortung vom Fachbetrieb | Dein Trocknungsteam"
+  metaDescription="Leckortung in Düsseldorf: zerstörungsfrei, mit moderner Messtechnik und Anfahrt aus Neuss meist innerhalb von 20 bis 30 Minuten – inklusive Versicherungsdokumentation."
+  breadcrumbLabel="Leckortung Düsseldorf"
+  heroTitle="Leckortung in Düsseldorf – zerstörungsfrei geortet, schnell dokumentiert"
+  heroSubtitle="Von unserem Standort in Neuss aus sind wir in Düsseldorf meist innerhalb von 20 bis 30 Minuten vor Ort – mit moderner, zerstörungsarmer Messtechnik."
+  serviceType="Leckortung"
+  cityName="Düsseldorf"
+  faq={faq}
+  relatedLinks={relatedLinks}
+  geoLat={51.2277}
+  geoLng={6.7735}
+>
+  <p>Düsseldorf gehört seit Jahren zu unserem festen Einsatzgebiet. Über die A57 und A52 sind wir aus Neuss meist innerhalb von 20 bis 30 Minuten in der Stadt – mit Fahrzeugen, die Ortungstechnik, Trocknungsgeräte und Material für erste Sicherungsmaßnahmen bereits an Bord haben.</p>
+
+  <h2>Ein echter Fall aus Düsseldorf</h2>
+  <p>Bei einem unserer Einsätze in Düsseldorf war ein Riss in der Heizleitung die Ursache für den Wasserschaden. Nach der Leckortung erfolgte die Trocknung mit Raumtrocknern und Dämmschichttrocknung – ein typischer Ablauf, wenn eine Heizungsleitung betroffen ist.</p>
+
+  <h2>So läuft die Leckortung in Düsseldorf ab</h2>
+  <p>Nach Ihrem Anruf klären wir kurz die Symptome – etwa feuchte Stellen, ungewöhnliche Geräusche in Leitungen oder eine steigende Wasserrechnung. Vor Ort kombinieren wir je nach Situation Thermografie, akustische Leckortung, Feuchtigkeitsmessung, Tracergas oder Endoskopie, bis die Leckstelle punktgenau eingegrenzt ist. Befund und Messwerte dokumentieren wir lückenlos für Ihre Versicherung.</p>
+
+  <h2>Kosten und Versicherung</h2>
+  <p>Die Kosten richten sich vor allem nach der Zugänglichkeit der Leitungen und dem nötigen Messaufwand. Bei einem versicherten Leitungswasserschaden übernimmt in der Regel die Gebäudeversicherung die Kosten der Leckortung – wir stimmen den Ablauf auf Wunsch direkt mit Ihrer Versicherung ab.</p>
+</LocationServiceLayout>

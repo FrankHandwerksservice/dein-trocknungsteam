@@ -1,0 +1,52 @@
+---
+import LocationServiceLayout from '../../layouts/LocationServiceLayout.astro';
+
+const faq = [
+  {
+    q: "Wie schnell sind Sie bei einer Leckortung in Neuss vor Ort?",
+    a: "Da unser Standort direkt in Neuss liegt (Am Alten Bach), sind wir bei akuten Fällen meist innerhalb von 30 Minuten bei Ihnen – ohne lange Anfahrt aus einer anderen Stadt."
+  },
+  {
+    q: "In welchen Neusser Stadtteilen führen Sie Leckortungen durch?",
+    a: "Wir sind im gesamten Neusser Stadtgebiet im Einsatz, von der Innenstadt über Furth und Weckhoven bis nach Norf, Rosellen und Grimlinghausen."
+  },
+  {
+    q: "Muss für die Leckortung etwas aufgestemmt werden?",
+    a: "In den meisten Fällen nicht. Mit Thermografie, akustischer Leckortung, Tracergas und Endoskopie lokalisieren wir die Schadstelle punktgenau, bevor überhaupt über eine Öffnung von Wand oder Boden nachgedacht wird."
+  },
+  {
+    q: "Übernimmt meine Versicherung die Kosten der Leckortung in Neuss?",
+    a: "Bei einem versicherten Leitungswasserschaden übernimmt in der Regel die Gebäudeversicherung die Kosten. Wir dokumentieren den Befund so, dass die Abrechnung mit Ihrer Versicherung reibungslos verläuft."
+  },
+];
+
+const relatedLinks = [
+  { href: "/leckortung/", label: "Mehr zur Leckortung: Techniken, Ablauf und Kosten" },
+  { href: "/neuss/", label: "Alle Leistungen in Neuss auf einen Blick" },
+  { href: "/wasserschaden-neuss/", label: "Akuter Wasserschaden in Neuss? Notdienst-Übersicht" },
+];
+---
+<LocationServiceLayout
+  title="Leckortung Neuss | Zerstörungsfreie Ortung vom Fachbetrieb | Dein Trocknungsteam"
+  metaDescription="Leckortung in Neuss vom ortsansässigen Fachbetrieb: zerstörungsfrei, meist innerhalb von 30 Minuten vor Ort, inklusive Versicherungsdokumentation."
+  breadcrumbLabel="Leckortung Neuss"
+  heroTitle="Leckortung in Neuss – schnell vor Ort, ohne unnötige Zerstörung"
+  heroSubtitle="Als Betrieb mit Sitz in Neuss sind wir bei einem Leck oder Rohrbruch meist innerhalb von 30 Minuten bei Ihnen – mit moderner, zerstörungsarmer Messtechnik."
+  serviceType="Leckortung"
+  cityName="Neuss"
+  faq={faq}
+  relatedLinks={relatedLinks}
+  geoLat={51.1985}
+  geoLng={6.6889}
+>
+  <p>Unser Standort liegt mitten in Neuss – das macht uns bei einer Leckortung besonders schnell: Fahrzeuge, Ortungstechnik und Material für erste Sicherungsmaßnahmen sind ohne lange Anfahrt bei Ihnen, egal ob in der Innenstadt, in Furth, Weckhoven oder einem der anderen Stadtteile.</p>
+
+  <h2>Ein echter Fall aus Neuss</h2>
+  <p>Erst kürzlich hatten wir in Neuss einen Wasserschaden durch eine beschädigte Abwasserleitung zu bearbeiten: Nach der Ortung wurde die betroffene Dämmschicht entkeimt und anschließend technisch getrocknet. Solche Einsätze – von der ersten Ortung bis zur abgeschlossenen Trocknung – gehören für uns in Neuss zum Alltag.</p>
+
+  <h2>So läuft die Leckortung in Neuss ab</h2>
+  <p>Nach Ihrem Anruf verschaffen wir uns zunächst telefonisch einen ersten Überblick über die Symptome – etwa feuchte Stellen, eine steigende Wasserrechnung oder muffigen Geruch. Vor Ort kombinieren wir je nach Situation Thermografie, akustische Leckortung, Feuchtigkeitsmessung, Tracergas oder Endoskopie, bis die Leckstelle punktgenau eingegrenzt ist. Befund und Messwerte dokumentieren wir lückenlos – die Grundlage für die Schadensmeldung bei Ihrer Versicherung.</p>
+
+  <h2>Kosten und Versicherung</h2>
+  <p>Die Kosten hängen von der Zugänglichkeit der Leitungen und dem nötigen Messaufwand ab. Bei einem versicherten Leitungswasserschaden übernimmt in der Regel die Gebäudeversicherung die Kosten der Leckortung – wir stimmen den Ablauf auf Wunsch direkt mit Ihrer Versicherung ab.</p>
+</LocationServiceLayout>
