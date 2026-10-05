@@ -22,9 +22,25 @@ const serviceMap: Record<string, { href: string; label: string }> = {
 "wasserschaden-sanierung-aus-einer-hand-vom-leck-bis-zum-neuen-anstrich": { href: "/wiederherstellung/", label: "Wasserschadensanierung" },
 "wer-zahlt-die-sanierung-nach-einem-wasserschaden": { href: "/wiederherstellung/", label: "Wasserschadensanierung" },
 "gebaeudeversicherung-bei-wasserschaden-wer-zahlt-was": { href: "/wiederherstellung/", label: "Wasserschadensanierung" },
+"wasserschaden-was-tun-erste-schritte": { href: "/wasserschaden-neuss/", label: "Wasserschaden-Soforthilfe" },
+"leckortung-kosten-wer-zahlt": { href: "/leckortung/", label: "Leckortung" },
+"bautrocknung-kosten-was-kostet-die-technische-trocknung": { href: "/bautrocknung/", label: "Bautrocknung" },
+"estrichdaemmschichttrocknung-ablauf-dauer-kosten": { href: "/bautrocknung/", label: "Bautrocknung" },
 };
 const related = serviceMap[post.slug];
 ---
-<BlogLayout title={post.data.title} metaDescription={post.data.metaDescription} pubDate={post.data.pubDate} heroImage={post.data.heroImage} slug={post.slug} serviceHref={related?.href} serviceLabel={related?.label}>
+<BlogLayout
+  title={post.data.title}
+  metaDescription={post.data.metaDescription}
+  pubDate={post.data.pubDate}
+  dateModified={post.data.dateModified}
+  heroImage={post.data.heroImage}
+  slug={post.slug}
+  serviceHref={related?.href}
+  serviceLabel={related?.label}
+  author={post.data.author}
+  authorBio={post.data.authorBio}
+  sources={post.data.sources}
+>
 <Content />
 </BlogLayout>
