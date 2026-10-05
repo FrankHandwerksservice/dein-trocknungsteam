@@ -63,7 +63,16 @@ schema: z.object({
 title: z.string(),
 metaDescription: z.string(),
 pubDate: z.date(),
+dateModified: z.date().optional(),
 heroImage: z.string().optional(),
+author: z.string().optional(),
+authorBio: z.string().optional(),
+sources: z.array(
+z.object({
+label: z.string(),
+url: z.string(),
+})
+).optional(),
 }),
 });
 
