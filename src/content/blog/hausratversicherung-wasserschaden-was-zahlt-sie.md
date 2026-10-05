@@ -3,7 +3,7 @@ title: "Hausratversicherung bei Wasserschaden: Das zahlt sie wirklich"
 metaDescription: "Hausratversicherung oder Gebäudeversicherung? Was bei einem Wasserschaden tatsächlich für Möbel, Elektronik & Co. übernommen wird – und wo die Grenzen liegen."
 pubDate: 2026-10-05
 dateModified: 2026-10-05
-heroImage: "/images/leckortung/endoskopie.webp"
+heroImage: "/images/blog/hausratversicherung-haus-lupe.webp"
 author: "Philipp Frank"
 authorBio: "Philipp Frank ist Inhaber der Frank Handwerksservice GmbH (Dein Trocknungsteam) und seit über 10 Jahren auf Leckortung und Bautrocknung im Rhein-Kreis Neuss spezialisiert. Sein Betrieb ist in die Handwerksrolle eingetragen."
 sources:
@@ -60,3 +60,5 @@ In der Mietwohnung ist die Aufteilung ähnlich: Der Vermieter sichert mit seiner
 ## Fazit
 
 Die Hausratversicherung springt bei einem Wasserschaden für die beschädigten Einrichtungsgegenstände ein, während die Gebäudeversicherung für die Bausubstanz zuständig ist – bei einem größeren Schaden sind deshalb häufig beide Versicherer im Spiel. Welche Ursachen und welcher Grad an Eigenverschulden konkret abgedeckt sind, regeln die individuellen Vertragsbedingungen. Dein Trocknungsteam ortet die Schadensursache im Rhein-Kreis Neuss zerstörungsfrei und dokumentiert den Befund so, dass er sich direkt bei Ihrer Versicherung einreichen lässt.
+
+*Titelbild: Tierra Mallorca / [Unsplash](https://unsplash.com/photos/white-and-red-wooden-house-beside-grey-framed-magnifying-glass-NpTbVOkkom8)*
