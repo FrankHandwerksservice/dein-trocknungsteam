@@ -3,7 +3,8 @@ import { getCollection } from 'astro:content';
 import BlogLayout from '../layouts/BlogLayout.astro';
 
 export async function getStaticPaths() {
-const posts = await getCollection('blog');
+// Artikel mit zukünftigem Datum erscheinen erst, wenn ihr Datum erreicht ist (Rebuild jeden Montag)
+const posts = await getCollection('blog', ({ data }) => data.pubDate.valueOf() <= Date.now());
 return posts.map((post) => ({
 params: { slug: post.slug },
 props: { post },
@@ -23,6 +24,7 @@ const serviceMap: Record<string, { href: string; label: string }> = {
 "wer-zahlt-die-sanierung-nach-einem-wasserschaden": { href: "/wiederherstellung/", label: "Wasserschadensanierung" },
 "gebaeudeversicherung-bei-wasserschaden-wer-zahlt-was": { href: "/wiederherstellung/", label: "Wasserschadensanierung" },
 "hausratversicherung-wasserschaden-was-zahlt-sie": { href: "/wiederherstellung/", label: "Wasserschadensanierung" },
+"bautrockner-mieten-kosten-fachbetrieb": { href: "/bautrocknung/", label: "Bautrocknung" },
 "wasserschaden-was-tun-erste-schritte": { href: "/wasserschaden-neuss/", label: "Wasserschaden-Soforthilfe" },
 "leckortung-kosten-wer-zahlt": { href: "/leckortung/", label: "Leckortung" },
 "bautrocknung-kosten-was-kostet-die-technische-trocknung": { href: "/bautrocknung/", label: "Bautrocknung" },
