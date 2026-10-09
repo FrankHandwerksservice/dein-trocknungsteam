@@ -1,0 +1,20 @@
+# Baut die Seite jeden Montag neu, damit Blogartikel mit Datum "heute" automatisch erscheinen.
+# Löst den vorhandenen Deploy-Now-Workflow aus (Orchestration), ohne ihn zu verändern.
+name: "Wöchentlicher Rebuild (Blog-Termine)"
+
+on:
+  schedule:
+    - cron: "15 3 * * 1"   # Montag 03:15 UTC = 05:15/04:15 Uhr deutscher Zeit
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy Now Orchestration starten
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run "dein-trocknungsteam-orchestration.yaml" --repo "${{ github.repository }}" --ref main
